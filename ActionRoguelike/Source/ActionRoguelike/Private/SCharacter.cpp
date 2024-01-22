@@ -4,6 +4,8 @@
 #include "SCharacter.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -14,8 +16,16 @@ ASCharacter::ASCharacter()
 	SpringArmComp = CreateDefaultSubobject<USpringArmComponent>("SpringArmComp");
 	SpringArmComp->SetupAttachment(RootComponent);
 
+	//使SpringArm组件能同步角色的旋转
+	SpringArmComp->bUsePawnControlRotation = true;
+
 	CameraComp = CreateDefaultSubobject <UCameraComponent>("CameraComp");
 	CameraComp->SetupAttachment(SpringArmComp);
+
+	//禁止让角色同步控制器的旋转
+	this->bUseControllerRotationYaw = false;
+	//让角色的移动方向同步控制器的方向
+	this->GetCharacterMovement()->bOrientRotationToMovement = true;
 }
 
 // Called when the game starts or when spawned
@@ -41,17 +51,35 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("MoveForward", this, &ASCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASCharacter::MoveRight);
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+	
+	PlayerInputComponent->BindAction("PrimaryAttack", IE_Pressed, this, &ASCharacter::PrimaryAttack);
 }
 
 
 void ASCharacter::MoveForward(float value)
 {
-	FVector ForwardVector = GetActorForwardVector();
-	AddMovementInput(ForwardVector, MoveSpeed * value);
+	FRotator ControlRot = this->GetControlRotation();
+	ControlRot.Roll = 0.0f;
+	ControlRot.Pitch = 0.0f;
+
+	AddMovementInput(ControlRot.Vector(), MoveSpeed * value);
 }
 
 void ASCharacter::MoveRight(float value)
 {
-	FVector RightVector = GetActorRightVector();
-	AddMovementInput(RightVector, MoveSpeed * value);
+	FRotator ControlRot = this->GetControlRotation();
+	ControlRot.Roll = 0.0f;
+	ControlRot.Pitch = 0.0f;
+	FVector RightVec = UKismetMathLibrary::GetRightVector(ControlRot);
+	AddMovementInput(RightVec, MoveSpeed * value);
+}
+
+void ASCharacter::PrimaryAttack()
+{
+	FTransform ProjectileTM = FTransform(GetActorRotation(), GetActorLocation());
+
+	FActorSpawnParameters Parameters;
+	Parameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, ProjectileTM, Parameters);
 }

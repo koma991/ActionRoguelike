@@ -8,11 +8,13 @@
 /NODEFAULTLIB
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\SCharacter.cpp.obj"
+"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\SMagicProjectile.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ActionRoguelike.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ActionRoguelikeGameModeBase.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ActionRoguelike.init.gen.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ActionRoguelikeGameModeBase.gen.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\SCharacter.gen.cpp.obj"
+"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\SMagicProjectile.gen.cpp.obj"
 "E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\Default.rc2.res"
 /OUT:"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\UE4Editor-ActionRoguelike.lib"
 /INCLUDE:IMPLEMENT_MODULE_ActionRoguelike
