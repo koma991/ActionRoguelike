@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ActionRoguelike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E4ECAD86-BE24-4C8D-A324-4D879FA80187}</UniqueIdentifier>
+      <UniqueIdentifier>{A00F35F6-0597-4D8C-B77D-C8DE86D8EAC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionRoguelike.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7D41A4B2-7291-4A9A-BAF6-EBF236B732D6}</UniqueIdentifier>
+      <UniqueIdentifier>{8940F358-042A-42AD-BEC2-FB85AF047B12}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ActionRoguelike">
-      <UniqueIdentifier>{C7B645D1-9699-482D-9B6F-B2332970E4BC}</UniqueIdentifier>
+      <UniqueIdentifier>{D932B0A6-1E7A-43D3-96EF-68D775544D46}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionRoguelike\ActionRoguelike.Build.cs">
       <Filter>Source\ActionRoguelike</Filter>
@@ -45,18 +45,42 @@
       <Filter>Source\ActionRoguelike</Filter>
     </ClInclude>
     <Filter Include="Source\ActionRoguelike\Private">
-      <UniqueIdentifier>{4D31343B-D044-4095-AB61-5551C9EAB974}</UniqueIdentifier>
+      <UniqueIdentifier>{5324A9D4-D8B3-41CB-8BB3-4D0FD0D4181C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ActionRoguelike\Private\ExplosiveBarrel.cpp">
+      <Filter>Source\ActionRoguelike\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\ActionRoguelike\Private\SCharacter.cpp">
+      <Filter>Source\ActionRoguelike\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ActionRoguelike\Private\SGameplayInterface.cpp">
+      <Filter>Source\ActionRoguelike\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ActionRoguelike\Private\SInteractorComponent.cpp">
+      <Filter>Source\ActionRoguelike\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ActionRoguelike\Private\SItemChest.cpp">
       <Filter>Source\ActionRoguelike\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\ActionRoguelike\Private\SMagicProjectile.cpp">
       <Filter>Source\ActionRoguelike\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ActionRoguelike\Public">
-      <UniqueIdentifier>{F64A8C04-FE30-4EE0-BFEF-FCA3565AE4F6}</UniqueIdentifier>
+      <UniqueIdentifier>{36FDCCB0-195C-4A04-8581-56922205307C}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\ActionRoguelike\Public\ExplosiveBarrel.h">
+      <Filter>Source\ActionRoguelike\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\ActionRoguelike\Public\SCharacter.h">
+      <Filter>Source\ActionRoguelike\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ActionRoguelike\Public\SGameplayInterface.h">
+      <Filter>Source\ActionRoguelike\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ActionRoguelike\Public\SInteractorComponent.h">
+      <Filter>Source\ActionRoguelike\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ActionRoguelike\Public\SItemChest.h">
       <Filter>Source\ActionRoguelike\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\ActionRoguelike\Public\SMagicProjectile.h">

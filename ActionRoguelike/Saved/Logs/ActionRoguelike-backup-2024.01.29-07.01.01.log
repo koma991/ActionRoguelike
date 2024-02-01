@@ -1,0 +1,2017 @@
+﻿Log file open, 01/29/24 14:36:20
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ActionRoguelike
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 59 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.217840
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin MegascansPlugin
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin DatabaseSupport
+LogPluginManager: Mounting plugin SQLiteCore
+LogPluginManager: Mounting plugin SQLiteSupport
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/lz291/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:10809'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 13th Gen Intel(R) Core(TM) i5-13600K, GPU: NVIDIA GeForce RTX 2080 Ti
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: E:/Unreal Enigne/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.01.29-06.36.20:779][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.01.29-06.36.20:780][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.01.29-06.36.20:780][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.01.29-06.36.20:780][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.01.29-06.36.20:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:780][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:787][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.29-06.36.20:787][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.29-06.36.20:788][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.29-06.36.20:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.29-06.36.20:790][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.29-06.36.20:790][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.01.29-06.36.20:790][  0]LogHAL: Display: Platform has ~ 32 GB [34088599552 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.29-06.36.20:790][  0]LogInit: Going up to parent DeviceProfile []
+[2024.01.29-06.36.20:790][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.01.29-06.36.20:790][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.01.29-06.36.20:791][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.01.29-06.36.20:792][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Scalability.ini]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.01.29-06.36.20:793][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.01.29-06.36.20:794][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.01.29-06.36.20:794][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Engine.ini]
+[2024.01.29-06.36.20:794][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Config/Windows/Editor.ini]
+[2024.01.29-06.36.20:794][  0]LogInit: Computer: LIKZ
+[2024.01.29-06.36.20:794][  0]LogInit: User: lz291
+[2024.01.29-06.36.20:794][  0]LogInit: CPU Page size=4096, Cores=14
+[2024.01.29-06.36.20:794][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.01.29-06.36.20:794][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2024.01.29-06.36.20:794][  0]LogMemory: Platform Memory Stats for Windows
+[2024.01.29-06.36.20:794][  0]LogMemory: Process Physical Memory: 141.82 MB used, 141.82 MB peak
+[2024.01.29-06.36.20:794][  0]LogMemory: Process Virtual Memory: 123.43 MB used, 123.43 MB peak
+[2024.01.29-06.36.20:794][  0]LogMemory: Physical Memory: 13917.64 MB used,  18591.79 MB free, 32509.42 MB total
+[2024.01.29-06.36.20:794][  0]LogMemory: Virtual Memory: 134200928.00 MB used,  16798.31 MB free, 134217728.00 MB total
+[2024.01.29-06.36.20:805][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.01.29-06.36.20:889][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.01.29-06.36.20:889][  0]LogInit: Overriding language with editor language configuration option (en).
+[2024.01.29-06.36.20:889][  0]LogInit: Overriding language with editor locale configuration option (en).
+[2024.01.29-06.36.20:976][  0]LogInit: Setting process to per monitor DPI aware
+[2024.01.29-06.36.20:986][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.01.29-06.36.20:995][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.01.29-06.36.20:995][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.01.29-06.36.21:039][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.29-06.36.21:040][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.01.29-06.36.21:040][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.01.29-06.36.21:040][  0]LogD3D11RHI: D3D11 adapters:
+[2024.01.29-06.36.21:130][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080 Ti' (Feature Level 11_0)
+[2024.01.29-06.36.21:130][  0]LogD3D11RHI:       11027/0/16254 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.01.29-06.36.21:132][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.01.29-06.36.21:132][  0]LogD3D11RHI:       0/0/16254 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.01.29-06.36.21:132][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.01.29-06.36.21:136][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.01.29-06.36.21:136][  0]LogD3D11RHI:     GPU DeviceId: 0x1e04 (for the marketing name, search the web for "GPU Device Id")
+[2024.01.29-06.36.21:136][  0]LogWindows: EnumDisplayDevices:
+[2024.01.29-06.36.21:136][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080 Ti' (P:1 D:1)
+[2024.01.29-06.36.21:136][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2024.01.29-06.36.21:137][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2024.01.29-06.36.21:137][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080 Ti' (P:0 D:0)
+[2024.01.29-06.36.21:137][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.01.29-06.36.21:137][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080 Ti
+[2024.01.29-06.36.21:137][  0]LogD3D11RHI:   Driver Version: 551.23 (internal:31.0.15.5123, unified:551.23)
+[2024.01.29-06.36.21:137][  0]LogD3D11RHI:      Driver Date: 1-18-2024
+[2024.01.29-06.36.21:137][  0]LogRHI: Texture pool is 7718 MB (70% of 11027 MB)
+[2024.01.29-06.36.21:183][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.01.29-06.36.21:183][  0]LogD3D11RHI: Async texture creation enabled
+[2024.01.29-06.36.21:183][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.01.29-06.36.21:184][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061081).
+[2024.01.29-06.36.21:204][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2024.01.29-06.36.21:206][  0]LogRHI: GeForceNow SDK initialized: 1
+[2024.01.29-06.36.21:387][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.01.29-06.36.21:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.01.29-06.36.21:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.01.29-06.36.21:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.01.29-06.36.21:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.01.29-06.36.21:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.01.29-06.36.21:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.01.29-06.36.21:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.01.29-06.36.21:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.01.29-06.36.21:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.01.29-06.36.21:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.01.29-06.36.21:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.01.29-06.36.21:414][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.01.29-06.36.21:419][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.01.29-06.36.21:424][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.01.29-06.36.21:429][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.01.29-06.36.21:434][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.01.29-06.36.21:439][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.01.29-06.36.21:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.01.29-06.36.21:449][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.01.29-06.36.21:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.01.29-06.36.21:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.01.29-06.36.21:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2024.01.29-06.36.21:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.01.29-06.36.21:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.01.29-06.36.21:482][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.01.29-06.36.21:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.01.29-06.36.21:489][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.01.29-06.36.21:495][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.01.29-06.36.21:500][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.01.29-06.36.21:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.01.29-06.36.21:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.01.29-06.36.21:510][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.01.29-06.36.21:517][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.01.29-06.36.21:572][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.01.29-06.36.21:572][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Intermediate/Shaders/WorkingDirectory/17652/).
+[2024.01.29-06.36.21:572][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/lz291/AppData/Local/Temp/UnrealShaderWorkingDir/604A82624A4C1B6DB0621BA7F8376E1A/'.
+[2024.01.29-06.36.21:572][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.01.29-06.36.21:573][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.01.29-06.36.21:998][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.01.29-06.36.22:029][  0]LogDerivedDataCache: Loaded boot cache 0.03s 77MB C:/Users/lz291/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2024.01.29-06.36.22:029][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/lz291/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2024.01.29-06.36.22:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE_Project/ActionRoguelike/ActionRoguelike/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.01.29-06.36.22:029][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.01.29-06.36.22:029][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE_Project/ActionRoguelike/ActionRoguelike/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.29-06.36.22:030][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.01.29-06.36.22:037][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.01.29-06.36.22:037][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.01.29-06.36.22:037][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.01.29-06.36.22:039][  0]LogDerivedDataCache: Speed tests for C:/Users/lz291/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.00 seconds
+[2024.01.29-06.36.22:039][  0]LogDerivedDataCache: Display: Performance to C:/Users/lz291/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.01ms. RandomReadSpeed=2905.27MBs, RandomWriteSpeed=544.38MBs. Assigned SpeedClass 'Local'
+[2024.01.29-06.36.22:040][  0]LogDerivedDataCache: Using Local data cache path C:/Users/lz291/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.01.29-06.36.22:040][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.01.29-06.36.22:040][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.01.29-06.36.22:065][  0]LogSlate: Using FreeType 2.10.0
+[2024.01.29-06.36.22:065][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.01.29-06.36.22:082][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2024.01.29-06.36.22:190][  0]LogInit: Selected Device Profile: [Windows]
+[2024.01.29-06.36.22:190][  0]LogInit: Active device profile: [000001DA3AFCE200][000001DA2DD6B080 49] Windows
+[2024.01.29-06.36.22:190][  0]LogInit: Profiles: [000001DA3AFCE200][000001DA2DD6B080 49] Windows, [000001DA3AF6E200][000001DA2DD73200 49] WindowsNoEditor, [000001DA3AFCD600][000001DA2DD77380 49] WindowsServer, [000001DA3AF6D400][000001DA2DD7B500 49] WindowsClient, [000001DA3AFCDD00][000001DA2DD6F640 49] IOS, [000001DA3AF6E600][000001DA2DD7F780 49] iPadAir, [000001DA3AFCE500][000001DA2DD838C0 49] iPadAir2, [000001DA3AF16000][000001DA385DFB40 49] IPadPro, [000001DA3AF16100][000001DA385D7B80 49] iPadAir3, [000001DA3AF6D200][000001DA385E3D00 49] iPadAir4, [000001DA3AF17900][000001DA385E61C0 49] iPadMini2, [000001DA3AF6C500][000001DA385EA340 49] iPadMini3, [000001DA3AF15400][000001DA385EE4C0 49] iPadMini4, [000001DA3AF6EA00][000001DA385F2640 49] iPadMini5, [000001DA3AF7D900][000001DA385FA900 49] iPhone6, [000001DA3AF7DA00][000001DA385F6940 49] iPodTouch6, [000001DA3AF17E00][000001DA38602C00 49] iPhone7, [000001DA3AF15F00][000001DA385FEC40 49] iPodTouch7, [000001DA3AF7F100][000001DA38606DC0 49] iPhone5S, [000001DA3AF17100][000001DA3860AF40 49] iPhone6Plus, [000001DA3AF7D600][000001DA3860F0C0 49] iPhone6S, [000001DA3AF14E00][000001DA38613240 49] iPhone6SPlus, [000001DA3AF7C700][000001DA386173C0 49] iPhone7Plus, [000001DA3AF14A00][000001DA3861B540 49] iPhoneSE, [000001DA3AF7E900][000001DA385DB680 49] iPhone8, [000001DA3AF16800][000001DA3861F7C0 49] iPhone8Plus, [000001DA3AF7C300][000001DA38623900 49] iPhoneX, [000001DA3AF16F00][000001DA38627A40 49] iPhoneXS, [000001DA3AF7E800][000001DA3862FBC0 49] iPhoneXSMax, [000001DA3AF17C00][000001DA38633D40 49] iPhoneXR, [000001DA3AF7CD00][000001DA38636200 49] iPhone11, [000001DA3AF16700][000001DA3863A380 49] iPhone11Pro, [000001DA3AF7E700][000001DA38F72500 49] iPhone11ProMax, [000001DA3AF17600][000001DA38F76680 49] iPhoneSE2, [000001DA3AF7E400][000001DA38F7A800 49] iPhone12Mini, [000001DA3AF17A00][000001DA38F7E980 49] iPhone12, [000001DA3AF7E100][000001DA38F82B00 49] iPhone12Pro, [000001DA3AF15E00][000001DA38F86C80 49] iPhone12ProMax, [000001DA3AFCE700][000001DA38F8AE00 49] iPadPro105, [000001DA3AF16D00][000001DA38F8EF80 49] iPadPro129, [000001DA3AFCED00][000001DA38F93100 49] iPadPro97, [000001DA3AF15000][000001DA38F97280 49] iPadPro2_129, [000001DA3AFCF200][000001DA38F9B400 49] iPad5, [000001DA3AF15100][000001DA38F9F580 49] iPad6, [000001DA3AFCEA00][000001DA38FA3700 49] iPad7, [000001DA3AF17F00][000001DA3862B840 49] iPad8, [000001DA3AFCE000][000001DA38FA7980 49] iPadPro11, [000001DA3AF15200][000001DA38FABAC0 49] iPadPro2_11, [000001DA3AFCC500][000001DA38FB3C40 49] iPadPro3_129, [000001DA3AF16B00][000001DA38FB6100 49] iPadPro4_129, [000001DA3AFCD100][000001DA38FBA280 49] AppleTV, [000001DA3AF15B00][000001DA38FBE400 49] AppleTV4K, [000001DA3AFCC400][000001DA38FC2580 49] TVOS, [000001DA3AF14900][000001DA38FC6700 49] Mac, [000001DA3AFCD800][000001DA38FCA880 49] MacClient, [000001DA3AF16400][000001DA38FCEA00 49] MacNoEditor, [000001DA3AFCC300][000001DA38FD2B80 49] MacServer, [000001DA3AF15500][000001DA38FD6D00 49] Linux, [000001DA3AFCCC00][000001DA38FDAE80 49] LinuxAArch64, [000001DA3AF14500][000001DA38FDF000 49] LinuxNoEditor, [000001DA3AFCC900][000001DA38FE3180 49] LinuxAArch64NoEditor, [000001DA3AF15800][000001DA38FE7300 49] LinuxClient, [000001DA3AFCC700][000001DA38FEB480 49] LinuxAArch64Client, [000001DA3AF17000][000001DA38FEF600 49] LinuxServer, [000001DA3AFCEF00][000001DA38FF3780 49] LinuxAArch64Server, [000001DA3AF14600][000001DA38FAF8C0 49] Android, [000001DA3AFCEE00][000001DA38FF7A00 49] Android_Low, [000001DA3AF15300][000001DA38FFBB40 49] Android_Mid, [000001DA3AFCF600][000001DA39003CC0 49] Android_High, [000001DA3AF15D00][000001DA39006180 49] Android_Default, [000001DA3AFCF100][000001DA3900A300 49] Android_Adreno4xx, [000001DA3AF16C00][000001DA3900E480 49] Android_Adreno5xx_Low, [000001DA3AFCC200][000001DA39012600 49] Android_Adreno5xx, [000001DA3AF14C00][000001DA39016780 49] Android_Adreno6xx, [000001DA3AFCEC00][000001DA3901A900 49] Android_Adreno6xx_Vulkan, [000001DA3AF15900][000001DA3901EA80 49] Android_Mali_T6xx, [000001DA3AFCDE00][000001DA39022C00 49] Android_Mali_T7xx, [000001DA3AF15700][000001DA39026D80 49] Android_Mali_T8xx, [000001DA3AFCCA00][000001DA3902AF00 49] Android_Mali_G71, [000001DA3AF6E700][000001DA3902F080 49] Android_Mali_G72, [000001DA3AF7EC00][000001DA39033200 49] Android_Mali_G72_Vulkan, [000001DA3AF6ED00][000001DA39037380 49] Android_Mali_G76, [000001DA3AF7C400][000001DA3903B500 49] Android_Mali_G76_Vulkan, [000001DA3AF6E300][000001DA3903F680 49] Android_Mali_G77, [000001DA3AF7C200][000001DA39043800 49] Android_Mali_G77_Vulkan, [000001DA3AF6CE00][000001DA38FFF940 49] Android_Vulkan_SM5, [000001DA3AF7FD00][000001DA39047A80 49] Android_PowerVR_G6xxx, [000001DA3AF6F200][000001DA3904BBC0 49] Android_PowerVR_GT7xxx, [000001DA3AF7D800][000001DA3904FD00 49] Android_PowerVR_GE8xxx, [000001DA3AF6F300][000001DA390561C0 49] Android_PowerVR_GM9xxx, [000001DA3AF7EF00][000001DA3905A340 49] Android_PowerVR_GM9xxx_Vulkan, [000001DA3AF6FF00][000001DA3905E4C0 49] Android_TegraK1, [000001DA3AF7C800][000001DA39062640 49] Android_Unknown_Vulkan, [000001DA3AF6EF00][000001DA390667C0 49] Lumin, [000001DA3AF7C500][000001DA3906A940 49] Lumin_Desktop, [000001DA3AF6E500][000001DA3906EAC0 49] HoloLens, 
+[2024.01.29-06.36.22:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.01.29-06.36.22:259][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.01.29-06.36.22:259][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.01.29-06.36.22:259][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.01.29-06.36.22:259][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.01.29-06.36.22:267][  0]LogNetVersion: ActionRoguelike 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3757647285)
+[2024.01.29-06.36.22:482][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.01.29-06.36.22:494][  0]LogPackageLocalizationCache: Processed 24 localized package path(s) for 1 prioritized culture(s) in 0.011428 seconds
+[2024.01.29-06.36.22:496][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2024.01.29-06.36.22:496][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2024.01.29-06.36.22:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.01.29-06.36.22:695][  0]LogPython: Using Python 3.7.7
+[2024.01.29-06.36.23:022][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.01.29-06.36.23:026][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.01.29-06.36.23:205][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.23:205][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.23:208][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.23:210][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.23:218][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.23:224][  0]LogUProjectInfo: Found projects:
+[2024.01.29-06.36.23:422][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.01.29-06.36.23:443][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.29-06.36.23:443][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.29-06.36.23:497][  0]LogCollectionManager: Loaded 0 collections in 0.000303 seconds
+[2024.01.29-06.36.23:519][  0]LogFileCache: Scanning file cache for directory 'E:/UE_Project/ActionRoguelike/ActionRoguelike/Saved/Collections/' took 0.00s
+[2024.01.29-06.36.23:519][  0]LogFileCache: Scanning file cache for directory 'E:/UE_Project/ActionRoguelike/ActionRoguelike/Content/Developers/lz291/Collections/' took 0.00s
+[2024.01.29-06.36.23:519][  0]LogFileCache: Scanning file cache for directory 'E:/UE_Project/ActionRoguelike/ActionRoguelike/Content/Collections/' took 0.00s
+[2024.01.29-06.36.23:519][  0]LogOcInput: OculusInput pre-init called
+[2024.01.29-06.36.23:528][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2024.01.29-06.36.23:528][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2024.01.29-06.36.23:741][  0]LogEngine: Initializing Engine...
+[2024.01.29-06.36.23:742][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.01.29-06.36.23:742][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.01.29-06.36.23:742][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.01.29-06.36.23:796][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.01.29-06.36.23:803][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.01.29-06.36.23:810][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.01.29-06.36.23:813][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.01.29-06.36.23:813][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.36.23:813][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.36.23:813][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.36.23:814][  0]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.36.23:814][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.36.23:820][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.36.23:820][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.36.23:848][  0]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.36.23:848][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.36.23:849][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.36.23:849][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.36.23:850][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.36.23:850][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.36.23:850][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.36.23:851][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.36.23:851][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.36.23:851][  0]LogInit: FAudioDevice initialized.
+[2024.01.29-06.36.23:851][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.01.29-06.36.23:851][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.01.29-06.36.23:877][  0]LogDerivedDataCache: Saved boot cache 0.03s 77MB C:/Users/lz291/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2024.01.29-06.36.23:877][  0]LogInit: Texture streaming: Enabled
+[2024.01.29-06.36.23:888][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2024.01.29-06.36.23:891][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.01.29-06.36.23:891][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={B0AE3EBB-4694-B7A0-C808-C090CEC0B8DA}
+[2024.01.29-06.36.23:891][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.01.29-06.36.23:892][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.01.29-06.36.23:900][  0]LogLiveCoding: Display: Starting LiveCoding
+[2024.01.29-06.36.23:901][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: ActionRoguelikeEditor Win64 Development
+[2024.01.29-06.36.24:238][  0]LogLiveCoding: Display: First instance in process group "UE4_ActionRoguelike_0x013da2e5", spawning console
+[2024.01.29-06.36.24:238][  0]LogLiveCoding: Display: Waiting for server
+[2024.01.29-06.36.24:238][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2024.01.29-06.36.24:241][  0]LogInit: Transaction tracking system initialized
+[2024.01.29-06.36.24:261][  0]BlueprintLog: New page: Editor Load
+[2024.01.29-06.36.24:315][  0]LocalizationService: Localization service is disabled
+[2024.01.29-06.36.24:334][  0]TimingProfiler: Initialize
+[2024.01.29-06.36.24:334][  0]TimingProfiler: OnSessionChanged
+[2024.01.29-06.36.24:334][  0]LoadingProfiler: Initialize
+[2024.01.29-06.36.24:334][  0]LoadingProfiler: OnSessionChanged
+[2024.01.29-06.36.24:334][  0]NetworkingProfiler: Initialize
+[2024.01.29-06.36.24:334][  0]NetworkingProfiler: OnSessionChanged
+[2024.01.29-06.36.24:334][  0]MemoryProfiler: Initialize
+[2024.01.29-06.36.24:334][  0]MemoryProfiler: OnSessionChanged
+[2024.01.29-06.36.24:407][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2024.01.29-06.36.24:407][  0]LogCook: Display: Mobile HDR setting 1
+[2024.01.29-06.36.24:529][  0]LogFileCache: Scanning file cache for directory 'E:/UE_Project/ActionRoguelike/ActionRoguelike/Content/' took 0.00s
+[2024.01.29-06.36.24:624][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.01.29-06.36.24:626][  0]SourceControl: Source control is disabled
+[2024.01.29-06.36.24:626][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.431
+[2024.01.29-06.36.24:626][  0]Cmd: MAP LOAD FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/Map/MainMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.29-06.36.24:626][  0]LightingResults: New page: Lighting Build
+[2024.01.29-06.36.24:627][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.36.24:627][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.36.24:627][  0]MapCheck: New page: Map Check
+[2024.01.29-06.36.24:627][  0]LightingResults: New page: Lighting Build
+[2024.01.29-06.36.24:631][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.01.29-06.36.24:840][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMap'.
+[2024.01.29-06.36.24:841][  0]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.36.24:845][  0]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.36.24:846][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.29-06.36.24:850][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.01.29-06.36.24:851][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.29-06.36.24:851][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.056ms to complete.
+[2024.01.29-06.36.24:851][  0]LogFileHelpers: Loading map 'MainMap' took 0.225
+[2024.01.29-06.36.24:853][  0]LogUnrealEdMisc: Total Editor Startup Time, took 4.658
+[2024.01.29-06.36.24:940][  0]LogWindowsTextInputMethodSystem: Display: IME system activated using TSF (微软拼音).
+[2024.01.29-06.36.24:985][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.24:988][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.24:990][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.24:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.25:000][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0049 seconds. Added 3634 classes and 875 folders.
+[2024.01.29-06.36.25:001][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2024.01.29-06.36.25:002][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.01.29-06.36.25:002][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:002][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.01.29-06.36.25:002][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.01.29-06.36.25:003][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2024.01.29-06.36.25:003][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:003][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.01.29-06.36.25:003][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.01.29-06.36.25:004][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.01.29-06.36.25:004][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:004][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.01.29-06.36.25:004][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.01.29-06.36.25:005][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.01.29-06.36.25:005][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2024.01.29-06.36.25:005][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.01.29-06.36.25:006][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.01.29-06.36.25:006][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:006][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.01.29-06.36.25:006][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.01.29-06.36.25:007][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.01.29-06.36.25:007][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:007][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.01.29-06.36.25:007][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.01.29-06.36.25:008][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.01.29-06.36.25:008][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.01.29-06.36.25:008][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.01.29-06.36.25:009][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.01.29-06.36.25:009][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:009][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.01.29-06.36.25:009][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.01.29-06.36.25:010][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.01.29-06.36.25:010][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:010][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2024.01.29-06.36.25:011][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.01.29-06.36.25:011][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.01.29-06.36.25:011][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.01.29-06.36.25:011][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.01.29-06.36.25:011][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2024.01.29-06.36.25:023][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2024.01.29-06.36.25:024][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0001 seconds. Added 2 classes and 0 folders.
+[2024.01.29-06.36.25:180][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.01.29-06.36.25:219][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.29-06.36.25:222][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.29-06.36.25:224][  0]LogSlate: Took 0.000074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.01.29-06.36.25:262][  0]LogRenderer: Reallocating scene render targets to support 1616x836 Format 10 NumSamples 1 (Frame:1).
+[2024.01.29-06.36.25:316][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.01.29-06.36.25:316][  0]LogLoad: (Engine Initialization) Total time: 5.12 seconds
+[2024.01.29-06.36.25:316][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.01.29-06.36.25:316][  0]LogInit: First time updating LLM stats...
+[2024.01.29-06.36.25:343][  0]LogAssetRegistry: Asset discovery search completed in 3.2617 seconds
+[2024.01.29-06.36.25:343][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2024.01.29-06.36.25:355][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.01.29-06.36.25:448][  4]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.36.27:488][231]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.36.27:492][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.36.27:492][231]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:36:27 PM)
+[2024.01.29-06.36.27:493][231]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.01.29-06.36.27:494][231]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.01.29-06.36.27:494][231]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.36.27:495][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001527s)
+[2024.01.29-06.36.27:496][231]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.36.27:496][231]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2024.01.29-06.36.27:496][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002411s)
+[2024.01.29-06.36.27:501][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.01.29-06.36.27:501][231]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.36.27:501][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.36.27:501][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.36.27:503][231]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.36.27:503][231]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.36.27:504][231]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.36.27:504][231]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.36.27:520][231]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.36.27:520][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.36.27:520][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.36.27:520][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.36.27:521][231]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.36.27:521][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.36.27:521][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.36.27:529][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.36.27:529][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.36.27:529][231]LogInit: FAudioDevice initialized.
+[2024.01.29-06.36.27:529][231]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMap'.
+[2024.01.29-06.36.27:538][231]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.36.27:539][231]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.36.27:540][231]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.36.27
+[2024.01.29-06.36.27:540][231]LogWorld: Bringing up level for play took: 0.002067
+[2024.01.29-06.36.27:540][231]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2024.01.29-06.36.27:543][231]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 20 classes and 0 folders.
+[2024.01.29-06.36.27:544][231]PIE: Server logged in
+[2024.01.29-06.36.27:545][231]PIE: Play in editor total start time 0.054 seconds.
+[2024.01.29-06.36.49:824][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.49:827][852]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.36.49:830][852]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.36.49:832][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.36.49:843][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.36.49:856][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.36.49:858][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.36.49:858][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.36.49:859][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.36.49:876][852]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.01.29-06.36.49:897][853]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.01.29-06.36.53:391][267]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.29-06.38.41:499][461]LogEditorViewport: Clicking on Actor (LMB): BP_SItemChest_C (BP_SItemChest)
+[2024.01.29-06.38.43:994][749]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.29-06.38.44:006][749]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SItemChest.BP_SItemChest
+[2024.01.29-06.38.44:023][749]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0003 seconds. Added 126 classes and 0 folders.
+[2024.01.29-06.38.46:045][895]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.38.46:045][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.38.46:070][895]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SItemChest.BP_SItemChest
+[2024.01.29-06.38.46:264][895]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.29-06.38.47:936][ 77]BlueprintLog: New page: Compile BP_SItemChest
+[2024.01.29-06.38.47:983][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.29-06.38.48:427][118]LogRenderer: Reallocating scene render targets to support 1616x1300 Format 10 NumSamples 1 (Frame:1).
+[2024.01.29-06.39.31:959][179]BlueprintLog: New page: Compile BP_SItemChest
+[2024.01.29-06.39.32:007][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.29-06.39.32:057][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SItemChest" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SItemChest.uasset" SILENT=true
+[2024.01.29-06.39.32:062][179]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SItemChest9065F04D4690AA3DE1C291846F115665.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SItemChest.uasset'
+[2024.01.29-06.39.32:073][179]AssetCheck: New page: Asset Save: BP_SItemChest
+[2024.01.29-06.39.32:073][179]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SItemChest.BP_SItemChest
+[2024.01.29-06.39.34:301][420]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.39.34:434][420]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.36:053][596]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.39.36:053][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.39.36:101][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.39.36:249][596]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.37:383][707]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:360][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:361][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:362][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:363][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:363][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:363][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.50:369][106]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:001][282]BlueprintLog: New page: Compile BP_SCharacter
+[2024.01.29-06.39.52:010][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:010][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:011][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:011][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:012][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:012][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:028][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.01.29-06.39.52:029][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:030][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:030][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:031][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:032][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:033][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:033][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.52:088][282]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SCharacter" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset" SILENT=true
+[2024.01.29-06.39.52:094][282]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SCharacterA21DC6894A87948922487187635E06A2.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset'
+[2024.01.29-06.39.52:105][282]AssetCheck: New page: Asset Save: BP_SCharacter
+[2024.01.29-06.39.52:106][282]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.39.52:111][282]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.39.53:926][465]BlueprintLog: New page: Compile BP_SItemChest
+[2024.01.29-06.39.53:963][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.01.29-06.40.00:511][179]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.40.00:515][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.40.00:515][179]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:40:00 PM)
+[2024.01.29-06.40.00:554][179]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.40.00:555][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001689s)
+[2024.01.29-06.40.00:556][179]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.40.00:556][179]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2024.01.29-06.40.00:556][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002650s)
+[2024.01.29-06.40.00:567][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.29-06.40.00:568][179]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.01.29-06.40.00:569][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.40.00:570][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.40.00:570][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.40.00:570][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.40.00:571][179]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.40.00:571][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.40.00:571][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.40.00:572][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.40.00:572][179]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.40.00:573][179]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.40.00:574][179]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.40.00:574][179]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.40.00:593][179]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.40.00:593][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.40.00:593][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.40.00:593][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.40.00:595][179]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.40.00:595][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.40.00:595][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.40.00:602][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.40.00:602][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.40.00:602][179]LogInit: FAudioDevice initialized.
+[2024.01.29-06.40.00:602][179]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2024.01.29-06.40.00:607][179]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.40.00:608][179]PIE: Warning: Invalid Simulate Options: Body (BP_SItemChest_2.TiggerBoxComp) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.29-06.40.00:608][179]PIE: Warning: Invalid Simulate Options: Body (BP_SItemChest_2.TiggerBoxComp) is set to simulate physics but Collision Enabled is incompatible
+[2024.01.29-06.40.00:608][179]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.00:609][179]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.40.00
+[2024.01.29-06.40.00:610][179]LogWorld: Bringing up level for play took: 0.002088
+[2024.01.29-06.40.00:610][179]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2024.01.29-06.40.00:611][179]PIE: Server logged in
+[2024.01.29-06.40.00:613][179]PIE: Play in editor total start time 0.098 seconds.
+[2024.01.29-06.40.09:364][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.40.09:364][218]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.40.09:364][218]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.40.09:365][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.40.09:372][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.40.09:385][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.40.09:392][218]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-06.40.09:393][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.40.09:394][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.40.09:408][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.40.09:409][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.01.29-06.40.09:495][218]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.01.29-06.40.09:498][219]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.01.29-06.40.12:168][501]LogSlate: Window 'Message Log' being destroyed
+[2024.01.29-06.40.12:174][501]LogSlate: Window 'Message Log' being destroyed
+[2024.01.29-06.40.17:635][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:636][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:636][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:637][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:637][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:638][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.17:653][ 55]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:969][190]BlueprintLog: New page: Compile BP_SCharacter
+[2024.01.29-06.40.18:977][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:978][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:978][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:979][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:980][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:980][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:995][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.01.29-06.40.18:995][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:996][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:996][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:997][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:998][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:999][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.18:999][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.19:104][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SCharacter" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset" SILENT=true
+[2024.01.29-06.40.19:109][190]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SCharacter1850A63B4F927CF2F64D3D93E51DD2BC.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset'
+[2024.01.29-06.40.19:140][190]AssetCheck: New page: Asset Save: BP_SCharacter
+[2024.01.29-06.40.19:140][190]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.40.19:154][190]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.26:950][942]BlueprintLog: New page: Compile BP_SItemChest
+[2024.01.29-06.40.27:000][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.01.29-06.40.27:043][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SItemChest" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SItemChest.uasset" SILENT=true
+[2024.01.29-06.40.27:047][942]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SItemChest1CBD48CF49E29547DCD6BB88AB9F7612.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SItemChest.uasset'
+[2024.01.29-06.40.27:059][942]AssetCheck: New page: Asset Save: BP_SItemChest
+[2024.01.29-06.40.27:059][942]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SItemChest.BP_SItemChest
+[2024.01.29-06.40.29:010][169]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.40.29:013][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.40.29:013][169]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:40:29 PM)
+[2024.01.29-06.40.29:034][169]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.40.29:035][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001600s)
+[2024.01.29-06.40.29:036][169]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.40.29:036][169]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2024.01.29-06.40.29:036][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002510s)
+[2024.01.29-06.40.29:045][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.01.29-06.40.29:046][169]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.29-06.40.29:046][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.40.29:046][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.40.29:046][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.40.29:046][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.40.29:046][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.40.29:047][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.40.29:047][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.40.29:047][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.40.29:047][169]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.40.29:047][169]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.40.29:048][169]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.40.29:048][169]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.40.29:066][169]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.40.29:067][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.40.29:067][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.40.29:067][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.40.29:067][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.40.29:067][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.40.29:067][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.40.29:076][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.40.29:076][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.40.29:076][169]LogInit: FAudioDevice initialized.
+[2024.01.29-06.40.29:076][169]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMap'.
+[2024.01.29-06.40.29:081][169]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.40.29:082][169]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.40.29:083][169]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.40.29
+[2024.01.29-06.40.29:083][169]LogWorld: Bringing up level for play took: 0.001898
+[2024.01.29-06.40.29:083][169]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2024.01.29-06.40.29:085][169]PIE: Server logged in
+[2024.01.29-06.40.29:086][169]PIE: Play in editor total start time 0.073 seconds.
+[2024.01.29-06.41.11:044][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.41.11:044][190]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.41.11:045][190]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.41.11:045][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.41.11:055][190]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.41.11:068][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.41.11:077][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-06.41.11:077][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.41.11:078][190]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.41.11:092][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.41.11:094][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.29-06.41.11:119][191]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.01.29-06.47.38:732][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.01.29-06.47.38:733][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/MainMap" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/Autosaves/Game/Map/MainMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.01.29-06.47.38:738][683]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/MainMap_Auto170A3BBEF4FD044F5ED8AE79CA2F31903.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/Autosaves/Game/Map/MainMap_Auto1.umap'
+[2024.01.29-06.47.38:738][683]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/MainMap' took 0.018
+[2024.01.29-06.47.38:739][683]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.018
+[2024.01.29-06.49.01:047][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:048][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:049][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:049][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:050][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:050][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:051][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.01:051][548]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.07:013][209]BlueprintLog: New page: Compile BP_SItemChest
+[2024.01.29-06.49.07:038][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.01.29-06.49.09:173][393]BlueprintLog: New page: Compile BP_SCharacter
+[2024.01.29-06.49.09:182][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:217][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:217][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:218][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:219][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:219][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:280][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.01.29-06.49.09:281][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:281][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:282][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:282][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:284][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:285][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:285][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.09:317][393]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.12:464][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/MainMap" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/Map/MainMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.29-06.49.12:473][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.01.29-06.49.12:478][722]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/MainMap26C8E6204AD232FC90E60C84A3E89694.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/Map/MainMap.umap'
+[2024.01.29-06.49.12:481][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/MainMap_BuiltData" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/Map/MainMap_BuiltData.uasset" SILENT=true
+[2024.01.29-06.49.12:492][722]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/MainMap_BuiltDataF77F3BE6454325A7E0A7C4815AE76D68.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/Map/MainMap_BuiltData.uasset'
+[2024.01.29-06.49.12:505][722]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.29-06.49.12:506][722]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/MainMap_BuiltData.MainMap_BuiltData
+[2024.01.29-06.49.12:506][722]LogContentValidation: Display: Validating World /Game/Map/MainMap.MainMap
+[2024.01.29-06.49.15:308][988]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.49.15:313][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.49.15:313][988]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:49:15 PM)
+[2024.01.29-06.49.15:343][988]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.49.15:345][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001546s)
+[2024.01.29-06.49.15:346][988]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.49.15:346][988]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2024.01.29-06.49.15:346][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002591s)
+[2024.01.29-06.49.15:356][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.29-06.49.15:356][988]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.01.29-06.49.15:356][988]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.49.15:357][988]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.49.15:357][988]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.49.15:357][988]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.49.15:358][988]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.49.15:359][988]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.49.15:377][988]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.49.15:377][988]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.49.15:385][988]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.49.15:385][988]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.49.15:385][988]LogInit: FAudioDevice initialized.
+[2024.01.29-06.49.15:385][988]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMap'.
+[2024.01.29-06.49.15:393][988]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.49.15:393][988]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.49.15:395][988]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.49.15
+[2024.01.29-06.49.15:395][988]LogWorld: Bringing up level for play took: 0.002251
+[2024.01.29-06.49.15:395][988]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2024.01.29-06.49.15:398][988]PIE: Server logged in
+[2024.01.29-06.49.15:399][988]PIE: Play in editor total start time 0.087 seconds.
+[2024.01.29-06.49.26:006][231]Set new viewmode: Wireframe
+[2024.01.29-06.49.42:217][ 68]Set new viewmode: Unlit
+[2024.01.29-06.49.44:235][310]Set new viewmode: Unlit
+[2024.01.29-06.49.44:651][360]Set new viewmode: Unlit
+[2024.01.29-06.49.49:235][910]Set new viewmode: Lit
+[2024.01.29-06.49.53:019][364]Set new viewmode: Unlit
+[2024.01.29-06.49.54:144][499]Set new viewmode: Lit
+[2024.01.29-06.49.55:128][617]Set new viewmode: Lit_DetailLighting
+[2024.01.29-06.49.57:028][845]Set new viewmode: ShaderComplexity
+[2024.01.29-06.49.57:032][846]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.29-06.49.57:039][846]LogMaterial: Display: Missing cached shader map for material DebugViewMode ComplexityAccumulate, compiling. Is special engine material.
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 72
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 71
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 70
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 69
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 68
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 67
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 66
+[2024.01.29-06.49.57:078][849]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 65
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 64
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 63
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 62
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 61
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 60
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 59
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 58
+[2024.01.29-06.49.57:079][849]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 57
+[2024.01.29-06.49.57:651][917]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 56
+[2024.01.29-06.49.57:660][918]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 55
+[2024.01.29-06.49.57:660][918]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 54
+[2024.01.29-06.49.57:660][918]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 53
+[2024.01.29-06.49.57:660][918]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 52
+[2024.01.29-06.49.57:660][918]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 51
+[2024.01.29-06.49.57:697][922]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 50
+[2024.01.29-06.49.57:697][922]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 49
+[2024.01.29-06.49.57:697][922]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 48
+[2024.01.29-06.49.57:698][922]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 47
+[2024.01.29-06.49.57:698][922]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 46
+[2024.01.29-06.49.57:755][929]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 45
+[2024.01.29-06.49.57:764][930]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 44
+[2024.01.29-06.49.57:764][930]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 43
+[2024.01.29-06.49.57:764][930]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 42
+[2024.01.29-06.49.57:764][930]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 41
+[2024.01.29-06.49.57:764][930]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 40
+[2024.01.29-06.49.57:773][931]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 39
+[2024.01.29-06.49.57:789][933]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 38
+[2024.01.29-06.49.57:789][933]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 37
+[2024.01.29-06.49.57:807][935]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 36
+[2024.01.29-06.49.57:814][936]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 35
+[2024.01.29-06.49.57:814][936]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 34
+[2024.01.29-06.49.57:832][938]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 33
+[2024.01.29-06.49.57:839][939]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 32
+[2024.01.29-06.49.57:839][939]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 31
+[2024.01.29-06.49.57:839][939]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 30
+[2024.01.29-06.49.57:839][939]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 29
+[2024.01.29-06.49.57:866][942]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 28
+[2024.01.29-06.49.57:866][942]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 27
+[2024.01.29-06.49.57:873][943]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 26
+[2024.01.29-06.49.57:899][946]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 25
+[2024.01.29-06.49.57:899][946]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 24
+[2024.01.29-06.49.57:899][946]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 23
+[2024.01.29-06.49.57:907][947]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 22
+[2024.01.29-06.49.57:907][947]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 21
+[2024.01.29-06.49.57:923][949]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 20
+[2024.01.29-06.49.57:924][949]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 19
+[2024.01.29-06.49.57:949][952]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 18
+[2024.01.29-06.49.57:949][952]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 17
+[2024.01.29-06.49.57:973][955]LogShaderCompilers: Display: Worker (12/17): shaders left to compile 16
+[2024.01.29-06.49.57:992][957]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 15
+[2024.01.29-06.49.57:992][957]LogShaderCompilers: Display: Worker (10/17): shaders left to compile 14
+[2024.01.29-06.49.57:992][957]LogShaderCompilers: Display: Worker (14/17): shaders left to compile 13
+[2024.01.29-06.49.57:992][957]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 12
+[2024.01.29-06.49.58:008][959]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 11
+[2024.01.29-06.49.58:008][959]LogShaderCompilers: Display: Worker (16/17): shaders left to compile 10
+[2024.01.29-06.49.58:023][961]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 9
+[2024.01.29-06.49.58:035][962]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.01.29-06.49.58:035][962]LogShaderCompilers: Display: Worker (15/17): shaders left to compile 7
+[2024.01.29-06.49.58:050][964]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 6
+[2024.01.29-06.49.58:051][964]LogShaderCompilers: Display: Worker (13/17): shaders left to compile 5
+[2024.01.29-06.49.58:051][964]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 4
+[2024.01.29-06.49.58:059][965]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 3
+[2024.01.29-06.49.58:060][965]LogShaderCompilers: Display: Worker (11/17): shaders left to compile 2
+[2024.01.29-06.49.58:085][968]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 1
+[2024.01.29-06.49.58:441][  9]LogMaterial: Display: Missing cached shader map for material DebugViewMode ComplexityAccumulate, compiling. 
+[2024.01.29-06.49.58:461][ 12]LogShaderCompilers: Display: Worker (1/17): shaders left to compile 9
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (2/17): shaders left to compile 8
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (3/17): shaders left to compile 7
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (4/17): shaders left to compile 6
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (5/17): shaders left to compile 5
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (6/17): shaders left to compile 4
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (7/17): shaders left to compile 3
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (8/17): shaders left to compile 2
+[2024.01.29-06.49.58:462][ 12]LogShaderCompilers: Display: Worker (9/17): shaders left to compile 1
+[2024.01.29-06.50.02:490][495]Set new viewmode: Lit_DetailLighting
+[2024.01.29-06.50.04:666][756]Set new viewmode: Lit
+[2024.01.29-06.50.05:831][895]Set new viewmode: Unlit
+[2024.01.29-06.50.07:115][ 49]Set new viewmode: Lit
+[2024.01.29-06.50.43:314][184]Set new viewmode: Lit_DetailLighting
+[2024.01.29-06.50.43:897][254]Set new viewmode: Lit_DetailLighting
+[2024.01.29-06.50.44:256][297]Set new viewmode: Lit
+[2024.01.29-06.50.52:715][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.50.52:715][308]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.50.52:715][308]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.50.52:716][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.50.52:725][308]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.50.52:757][308]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.50.52:766][308]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-06.50.52:766][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.50.52:767][308]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.50.52:782][308]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.50.52:783][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.29-06.50.52:820][309]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.01.29-06.50.53:014][328]Cmd: SELECT NONE
+[2024.01.29-06.50.57:869][602]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:846][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:847][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:848][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:849][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:849][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:850][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:851][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:851][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:851][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:853][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:853][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:854][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:855][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:856][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:856][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.36:865][731]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:442][  8]BlueprintLog: New page: Compile BP_SCharacter
+[2024.01.29-06.51.39:450][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:450][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:451][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:451][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:452][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:452][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:468][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.01.29-06.51.39:469][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:470][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:470][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:471][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:472][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:473][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:473][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.39:515][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SCharacter" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset" SILENT=true
+[2024.01.29-06.51.39:520][  8]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SCharacter83C9DD3142BD272FB0EF509A27F10D51.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset'
+[2024.01.29-06.51.39:528][  8]AssetCheck: New page: Asset Save: BP_SCharacter
+[2024.01.29-06.51.39:528][  8]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.51.39:534][  8]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.53:837][504]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.51.53:840][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.51.53:840][504]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:51:53 PM)
+[2024.01.29-06.51.53:873][504]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.51.53:875][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001698s)
+[2024.01.29-06.51.53:875][504]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.51.53:876][504]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2024.01.29-06.51.53:876][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002706s)
+[2024.01.29-06.51.53:886][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.01.29-06.51.53:887][504]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.01.29-06.51.53:887][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.51.53:888][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.51.53:888][504]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.51.53:888][504]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.51.53:890][504]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.51.53:890][504]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.51.53:909][504]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.51.53:909][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.51.53:909][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.51.53:909][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.51.53:909][504]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.51.53:910][504]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.51.53:910][504]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.51.53:917][504]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.51.53:917][504]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.51.53:917][504]LogInit: FAudioDevice initialized.
+[2024.01.29-06.51.53:917][504]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMap'.
+[2024.01.29-06.51.53:925][504]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.51.53:926][504]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.53:927][504]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.51.53
+[2024.01.29-06.51.53:928][504]LogWorld: Bringing up level for play took: 0.001972
+[2024.01.29-06.51.53:928][504]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2024.01.29-06.51.53:929][504]PIE: Server logged in
+[2024.01.29-06.51.53:930][504]PIE: Play in editor total start time 0.09 seconds.
+[2024.01.29-06.51.56:504][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.51.56:504][801]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.51.56:505][801]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.51.56:505][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.51.56:517][801]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.51.56:518][801]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.51.56:527][801]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-06.51.56:527][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.51.56:528][801]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.51.56:542][801]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.51.56:544][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.01.29-06.51.56:559][802]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.01.29-06.51.57:579][919]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.51.57:582][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.51.57:582][919]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:51:57 PM)
+[2024.01.29-06.51.57:603][919]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.51.57:605][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001532s)
+[2024.01.29-06.51.57:605][919]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.51.57:605][919]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2024.01.29-06.51.57:605][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.002462s)
+[2024.01.29-06.51.57:617][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.29-06.51.57:617][919]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.01.29-06.51.57:617][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.51.57:617][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.51.57:617][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.51.57:618][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.51.57:618][919]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.51.57:618][919]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.51.57:618][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.51.57:618][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.51.57:618][919]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.51.57:618][919]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.51.57:619][919]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.51.57:619][919]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.51.57:637][919]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.51.57:637][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.51.57:637][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.51.57:637][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.51.57:637][919]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.51.57:637][919]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.51.57:638][919]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.51.57:645][919]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.51.57:645][919]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.51.57:645][919]LogInit: FAudioDevice initialized.
+[2024.01.29-06.51.57:645][919]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMap'.
+[2024.01.29-06.51.57:653][919]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.51.57:654][919]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.51.57:655][919]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.51.57
+[2024.01.29-06.51.57:655][919]LogWorld: Bringing up level for play took: 0.002042
+[2024.01.29-06.51.57:655][919]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2024.01.29-06.51.57:657][919]PIE: Server logged in
+[2024.01.29-06.51.57:657][919]PIE: Play in editor total start time 0.076 seconds.
+[2024.01.29-06.51.58:394][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.51.58:395][998]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.51.58:395][998]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.51.58:395][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.51.58:406][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.51.58:407][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.51.58:417][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.51.58:417][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.51.58:418][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.51.58:434][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.01.29-06.51.58:474][  0]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.01.29-06.52.07:437][988]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:527][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:528][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:529][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:530][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:530][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:531][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:532][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:532][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:532][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:534][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:534][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:535][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.13:544][545]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:322][735]BlueprintLog: New page: Compile BP_SCharacter
+[2024.01.29-06.52.15:330][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:331][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:331][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:332][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:332][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:333][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:349][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.01.29-06.52.15:350][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:351][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:351][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:351][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:353][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:353][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:353][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.15:431][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_SCharacter" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset" SILENT=true
+[2024.01.29-06.52.15:436][735]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/BP_SCharacterBD945C524F867A4A79EC79B983870020.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Content/BP/BP_SCharacter.uasset'
+[2024.01.29-06.52.15:467][735]AssetCheck: New page: Asset Save: BP_SCharacter
+[2024.01.29-06.52.15:467][735]LogContentValidation: Display: Validating Blueprint /Game/BP/BP_SCharacter.BP_SCharacter
+[2024.01.29-06.52.15:473][735]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.17:072][910]LogTemp: Repeating last play command: Selected Viewport
+[2024.01.29-06.52.17:075][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.29-06.52.17:075][910]PIE: New page: PIE session: MainMap (Jan 29, 2024, 10:52:17 PM)
+[2024.01.29-06.52.17:103][910]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.52.17:105][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001530s)
+[2024.01.29-06.52.17:106][910]LogAIModule: Creating AISystem for world MainMap
+[2024.01.29-06.52.17:106][910]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2024.01.29-06.52.17:107][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/MainMap.MainMap to /Game/Map/UEDPIE_0_MainMap.MainMap (0.003534s)
+[2024.01.29-06.52.17:118][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.29-06.52.17:119][910]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.29-06.52.17:119][910]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.29-06.52.17:119][910]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.29-06.52.17:120][910]LogAudio: Display: Using built-in audio occlusion.
+[2024.01.29-06.52.17:120][910]LogAudioMixer: Display: Initializing audio mixer.
+[2024.01.29-06.52.17:121][910]LogAudioMixer: Display: 0: FrontLeft
+[2024.01.29-06.52.17:121][910]LogAudioMixer: Display: 1: FrontRight
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Using Audio Device 扬声器 (Realtek(R) Audio)
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.01.29-06.52.17:140][910]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.01.29-06.52.17:140][910]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.01.29-06.52.17:147][910]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.01.29-06.52.17:147][910]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.01.29-06.52.17:147][910]LogInit: FAudioDevice initialized.
+[2024.01.29-06.52.17:147][910]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMap'.
+[2024.01.29-06.52.17:159][910]LogLoad: Game class is 'GameModeBase'
+[2024.01.29-06.52.17:160][910]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonGideon/Characters/Heroes/Gideon/Gideon_AnimBlueprint.Gideon_AnimBlueprint_C:ExecuteUbergraph_Gideon_AnimBlueprint
+
+[2024.01.29-06.52.17:161][910]LogWorld: Bringing World /Game/Map/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2024.01.29-14.52.17
+[2024.01.29-06.52.17:161][910]LogWorld: Bringing up level for play took: 0.001908
+[2024.01.29-06.52.17:161][910]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2024.01.29-06.52.17:165][910]PIE: Server logged in
+[2024.01.29-06.52.17:165][910]PIE: Play in editor total start time 0.091 seconds.
+[2024.01.29-06.52.25:514][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.52.25:514][900]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_MainMap
+[2024.01.29-06.52.25:514][900]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.29-06.52.25:515][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.52.25:521][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.29-06.52.25:524][900]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.29-06.52.25:533][900]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.29-06.52.25:533][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.52.25:534][900]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.01.29-06.52.25:548][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.29-06.52.25:550][900]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.29-06.52.25:565][901]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.01.29-07.01.01:744][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.29-07.01.01:745][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/MainMap" FILE="../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/Autosaves/Game/Map/MainMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.01.29-07.01.01:750][626]LogSavePackage: Moving '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/MainMap_Auto2AB8D00F64B8E93BE01D957A8961ADD83.tmp' to '../../../../../UE_Project/ActionRoguelike/ActionRoguelike/Saved/Autosaves/Game/Map/MainMap_Auto2.umap'
+[2024.01.29-07.01.01:750][626]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/MainMap' took 0.020
+[2024.01.29-07.01.01:750][626]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.020

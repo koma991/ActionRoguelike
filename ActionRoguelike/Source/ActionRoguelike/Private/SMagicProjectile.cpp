@@ -15,6 +15,7 @@ ASMagicProjectile::ASMagicProjectile()
 	SphereComp = CreateDefaultSubobject<USphereComponent>("SphereComp");
 	//将SphereComp设置为根组件
 	RootComponent = SphereComp;
+	SphereComp->SetCollisionProfileName("Projectile");
 
 	EffectComp = CreateDefaultSubobject<UParticleSystemComponent>("EffectComp");
 	EffectComp->SetupAttachment(SphereComp);
@@ -25,6 +26,7 @@ ASMagicProjectile::ASMagicProjectile()
 	ProjectileMoveComp->bRotationFollowsVelocity = true;
 	//让Actor以自身的方向为基准
 	ProjectileMoveComp->bInitialVelocityInLocalSpace = true;
+	ProjectileMoveComp->ProjectileGravityScale = 0.0f;
 }
 
 // Called when the game starts or when spawned
