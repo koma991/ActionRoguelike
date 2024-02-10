@@ -5,7 +5,9 @@
 #include "Components/StaticMeshComponent.h"
 #include "PhysicsEngine/RadialForceComponent.h"
 #include "SCharacter.h"
-#include "Components/CapsuleComponent.h"
+#include "Engine/CollisionProfile.h"
+
+//#include UE_INLINE_GENERATED_CPP_BY_NAME(AExplosiveBarrel)
 
 // Sets default values
 AExplosiveBarrel::AExplosiveBarrel()
@@ -14,20 +16,31 @@ AExplosiveBarrel::AExplosiveBarrel()
 	PrimaryActorTick.bCanEverTick = true;
 
 	MeshComp = CreateDefaultSubobject<UStaticMeshComponent>("MeshComp");
+	MeshComp->SetSimulatePhysics(true);
+	MeshComp->SetCollisionProfileName(UCollisionProfile::PhysicsActor_ProfileName);
 	RootComponent = MeshComp;
 
-	RadialForceComp = CreateDefaultSubobject<URadialForceComponent>("RadialForceComp");
-	RadialForceComp->SetupAttachment(MeshComp);
-	RadialForceComp->bAutoActivate = false;
+	ForceComp = CreateDefaultSubobject<URadialForceComponent>("ForceComp");
+	ForceComp->Radius = 750.0f;
+	ForceComp->ImpulseStrength = 2500.0f;
+	ForceComp->bAutoActivate = false;
+	ForceComp->bImpulseVelChange = true;
+	ForceComp->SetupAttachment(MeshComp);
 
-	TriggerComo = CreateDefaultSubobject<UCapsuleComponent>("TriggerComp");
-	TriggerComo->SetupAttachment(MeshComp);
+
 }
+
+//void AExplosiveBarrel::PostInitializeComponents()
+//{
+//	Super::PostInitializeComponents();
+//
+//}
 
 // Called when the game starts or when spawned
 void AExplosiveBarrel::BeginPlay()
 {
 	Super::BeginPlay();
+	MeshComp->OnComponentHit.AddDynamic(this, &AExplosiveBarrel::OnActorHit);
 	
 }
 
@@ -37,19 +50,16 @@ void AExplosiveBarrel::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
-void AExplosiveBarrel::OnHitComponent(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
-{
-	UE_LOG(LogTemp, Warning, TEXT("OnHitEnter"));
-	if (OtherActor->IsA(ASCharacter::StaticClass())) {
-		Explosive();
-	}
-}
 	
 void AExplosiveBarrel::Explosive()
 {
-	if (RadialForceComp) {
-		RadialForceComp->FireImpulse();
+	if (ForceComp) {
+		ForceComp->FireImpulse();
 	}
+}
+
+void AExplosiveBarrel::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	Explosive();
 }
 

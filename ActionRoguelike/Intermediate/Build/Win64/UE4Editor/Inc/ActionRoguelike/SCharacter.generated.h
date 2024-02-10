@@ -66,7 +66,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASCharacter); \
 	FORCEINLINE static uint32 __PPO__DrawScale() { return STRUCT_OFFSET(ASCharacter, DrawScale); } \
 	FORCEINLINE static uint32 __PPO__Thickness() { return STRUCT_OFFSET(ASCharacter, Thickness); } \
 	FORCEINLINE static uint32 __PPO__AttackAnim() { return STRUCT_OFFSET(ASCharacter, AttackAnim); } \
-	FORCEINLINE static uint32 __PPO__JumpAnim() { return STRUCT_OFFSET(ASCharacter, JumpAnim); } \
 	FORCEINLINE static uint32 __PPO__MoveSpeed() { return STRUCT_OFFSET(ASCharacter, MoveSpeed); }
 
 

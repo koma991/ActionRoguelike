@@ -35,7 +35,6 @@ protected:
 
 	void MoveForward(float value);
 	void MoveRight(float value);
-	void Jump();
 
 	void PrimaryAttack();
 	void PrimaryInteract();
@@ -58,8 +57,6 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly,Category = "Anim")
 	UAnimMontage* AttackAnim;
-	UPROPERTY(EditDefaultsOnly, Category = "Anim")
-	UAnimMontage* JumpAnim;
 
 	//ÒÆ¶¯
 	UPROPERTY(EditAnywhere);

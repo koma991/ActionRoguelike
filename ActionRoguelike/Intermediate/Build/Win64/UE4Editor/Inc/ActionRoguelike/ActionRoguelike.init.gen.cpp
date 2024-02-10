@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeActionRoguelike_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3EDBB2A2,
+				0xF37DA2C4,
 				0x34B43A7B,
 				METADATA_PARAMS(nullptr, 0)
 			};
