@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ActionRoguelike",
-			"Path": "E:\\UE_Project\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike.Target.cs",
+			"Path": "D:\\Work\\GitHub\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ActionRoguelikeEditor",
-			"Path": "E:\\UE_Project\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelikeEditor.Target.cs",
+			"Path": "D:\\Work\\GitHub\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelikeEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

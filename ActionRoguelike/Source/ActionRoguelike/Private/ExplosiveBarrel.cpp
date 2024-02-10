@@ -4,6 +4,8 @@
 #include "ExplosiveBarrel.h"
 #include "Components/StaticMeshComponent.h"
 #include "PhysicsEngine/RadialForceComponent.h"
+#include "SCharacter.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 AExplosiveBarrel::AExplosiveBarrel()
@@ -16,7 +18,10 @@ AExplosiveBarrel::AExplosiveBarrel()
 
 	RadialForceComp = CreateDefaultSubobject<URadialForceComponent>("RadialForceComp");
 	RadialForceComp->SetupAttachment(MeshComp);
+	RadialForceComp->bAutoActivate = false;
 
+	TriggerComo = CreateDefaultSubobject<UCapsuleComponent>("TriggerComp");
+	TriggerComo->SetupAttachment(MeshComp);
 }
 
 // Called when the game starts or when spawned
@@ -31,5 +36,20 @@ void AExplosiveBarrel::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AExplosiveBarrel::OnHitComponent(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+	UE_LOG(LogTemp, Warning, TEXT("OnHitEnter"));
+	if (OtherActor->IsA(ASCharacter::StaticClass())) {
+		Explosive();
+	}
+}
+	
+void AExplosiveBarrel::Explosive()
+{
+	if (RadialForceComp) {
+		RadialForceComp->FireImpulse();
+	}
 }
 

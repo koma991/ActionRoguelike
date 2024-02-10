@@ -9,6 +9,7 @@
 
 class UStaticMeshComponent;
 class URadialForceComponent;
+class UCapsuleComponent;
 
 UCLASS()
 class ACTIONROGUELIKE_API AExplosiveBarrel : public AActor
@@ -19,13 +20,15 @@ public:
 	// Sets default values for this actor's properties
 	AExplosiveBarrel();
 
-
 public:
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* MeshComp;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	URadialForceComponent* RadialForceComp;
+
+	UPROPERTY(VisibleAnywhere)
+	UCapsuleComponent* TriggerComo;
 
 protected:
 	// Called when the game starts or when spawned
@@ -35,4 +38,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION()
+	void Explosive();
+
+	UFUNCTION()
+	void OnHitComponent(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 };

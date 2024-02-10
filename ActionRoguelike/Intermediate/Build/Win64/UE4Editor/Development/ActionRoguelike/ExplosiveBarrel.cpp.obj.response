@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I E:\UE_Project\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private
+/I D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike
-/I E:\UE_Project\ActionRoguelike\ActionRoguelike\Source
-/I E:\UE_Project\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public
+/I D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike
+/I D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source
+/I D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -257,18 +257,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "D:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.38.33130\INCLUDE"
+/I "D:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\UE_Project\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\ExplosiveBarrel.cpp"
-/FI"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\Definitions.ActionRoguelike.h"
-/Fo"E:\UE_Project\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ExplosiveBarrel.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Private\ExplosiveBarrel.cpp"
+/FI"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\Definitions.ActionRoguelike.h"
+/Fo"D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Development\ActionRoguelike\ExplosiveBarrel.cpp.obj"
 /TP
 /GR-
 /W4

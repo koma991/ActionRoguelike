@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayInterface() {}
 		{ "ModuleRelativePath", "Public/SGameplayInterface.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USGameplayInterface_Interface_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USGameplayInterface, nullptr, "Interface", nullptr, nullptr, sizeof(SGameplayInterface_eventInterface_Parms), Z_Construct_UFunction_USGameplayInterface_Interface_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_USGameplayInterface_Interface_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USGameplayInterface, nullptr, "Interface", nullptr, nullptr, sizeof(SGameplayInterface_eventInterface_Parms), Z_Construct_UFunction_USGameplayInterface_Interface_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USGameplayInterface_Interface_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_USGameplayInterface_Interface()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -86,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayInterface() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionRoguelike,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USGameplayInterface_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_USGameplayInterface_Interface, "Interface" }, // 1545894900
+		{ &Z_Construct_UFunction_USGameplayInterface_Interface, "Interface" }, // 2195709173
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USGameplayInterface_Statics::Class_MetaDataParams[] = {
@@ -120,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeSGameplayInterface() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USGameplayInterface, 2368680023);
+	IMPLEMENT_CLASS(USGameplayInterface, 1735805101);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<USGameplayInterface>()
 	{
 		return USGameplayInterface::StaticClass();

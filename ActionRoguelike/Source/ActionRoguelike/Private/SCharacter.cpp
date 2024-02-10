@@ -6,6 +6,8 @@
 #include "Camera/CameraComponent.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "SInteractorComponent.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 ASCharacter::ASCharacter()
@@ -21,6 +23,8 @@ ASCharacter::ASCharacter()
 
 	CameraComp = CreateDefaultSubobject <UCameraComponent>("CameraComp");
 	CameraComp->SetupAttachment(SpringArmComp);
+
+	InsteractComp = CreateDefaultSubobject<USInteractorComponent>("InsteractComp");
 
 	//禁止让角色同步控制器的旋转
 	this->bUseControllerRotationYaw = false;
@@ -41,6 +45,17 @@ void ASCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	FVector LineStart = GetActorLocation();
+	// Offset to the right of pawn
+	LineStart += GetActorRightVector() * 100.0f;
+	// Set line end in direction of the actor's forward
+	FVector ActorDirection_LineEnd = LineStart + (GetActorForwardVector() * 100.0f);
+	// Draw Actor's Direction
+	DrawDebugDirectionalArrow(GetWorld(), LineStart, ActorDirection_LineEnd, DrawScale, FColor::Yellow, false, 0.0f, 0, Thickness);
+
+	FVector ControllerDirection_LineEnd = LineStart + (GetControlRotation().Vector() * 100.0f);
+	// Draw 'Controller' Rotation ('PlayerController' that 'possessed' this character)
+	DrawDebugDirectionalArrow(GetWorld(), LineStart, ControllerDirection_LineEnd, DrawScale, FColor::Green, false, 0.0f, 0, Thickness);
 }
 
 // Called to bind functionality to input
@@ -53,8 +68,9 @@ void ASCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 
-	
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASCharacter::Jump);
 	PlayerInputComponent->BindAction("PrimaryAttack", IE_Pressed, this, &ASCharacter::PrimaryAttack);
+	PlayerInputComponent->BindAction("PrimaryInteract", IE_Pressed, this, &ASCharacter::PrimaryInteract);
 }
 
 
@@ -76,7 +92,18 @@ void ASCharacter::MoveRight(float value)
 	AddMovementInput(RightVec, MoveSpeed * value);
 }
 
+void ASCharacter::Jump()
+{
+	PlayAnimMontage(JumpAnim);
+}
+
 void ASCharacter::PrimaryAttack()
+{
+	PlayAnimMontage(AttackAnim);
+	this->GetWorldTimerManager().SetTimer(TimeHandle, this, &ASCharacter::PlayAttackAnim, 0.25f, false);
+}
+
+void ASCharacter::PlayAttackAnim()
 {
 	FVector handTM = this->GetMesh()->GetSocketLocation("Muzzle_01");
 	FTransform ProjectileTM = FTransform(GetActorRotation(), handTM);
@@ -85,3 +112,12 @@ void ASCharacter::PrimaryAttack()
 	Parameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, ProjectileTM, Parameters);
 }
+
+void ASCharacter::PrimaryInteract()
+{
+	if (InsteractComp) {
+		InsteractComp->PrimaryInteract();
+	}
+}
+
+

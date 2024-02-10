@@ -3,6 +3,7 @@
 
 #include "SInteractorComponent.h"
 #include "SGameplayInterface.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values for this component's properties
 USInteractorComponent::USInteractorComponent()
@@ -44,18 +45,30 @@ void USInteractorComponent::PrimaryInteract()
 	MyOwner->GetActorEyesViewPoint(EyeLocation, EyeRotation);
 	FVector End = EyeLocation + (EyeRotation.Vector() * 1000);
 
-	FHitResult Hit;
+	TArray<FHitResult> Hits;
+	float Radius = 30.0f;
+	FCollisionShape Shape;
+	Shape.SetSphere(Radius);
 
-	this->GetWorld()->LineTraceSingleByObjectType(Hit, EyeLocation, End, ObjectQueryParams);
-	AActor* HitActor = Hit.GetActor();
-	if (HitActor)
+	/*bool bBlockingHit = this->GetWorld()->LineTraceSingleByObjectType(Hit, EyeLocation, End, ObjectQueryParams);*/
+
+	bool bBlockingHit = this->GetWorld()->SweepMultiByObjectType(Hits, EyeLocation, End, FQuat::Identity, ObjectQueryParams, Shape);
+	FColor LineColor = bBlockingHit ? FColor::Green : FColor::Red;
+	for (FHitResult Hit : Hits)
 	{
-		if (HitActor->Implements<USGameplayInterface>())
+		AActor* HitActor = Hit.GetActor();
+		if (HitActor)
 		{
-			// 检查被击中的物体是否实现了 USGameplayInterface 接口
-			APawn* MyPawn = Cast<APawn>(MyOwner);
-			ISGameplayInterface::Execute_Interface(HitActor, MyPawn);
+			if (HitActor->Implements<USGameplayInterface>())
+			{
+				// 检查被击中的物体是否实现了 USGameplayInterface 接口
+				APawn* MyPawn = Cast<APawn>(MyOwner);
+				ISGameplayInterface::Execute_Interface(HitActor, MyPawn);
+				break;
+			}
 		}
+		DrawDebugSphere(this->GetWorld(), Hit.ImpactPoint, Radius, 15, LineColor, false, 2.0f, 0, 1.0f);
 	}
+	DrawDebugLine(this->GetWorld(), EyeLocation, End, LineColor,false,2.0f,0,2.0f);
 }
 

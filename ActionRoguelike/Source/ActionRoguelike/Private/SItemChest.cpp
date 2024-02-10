@@ -36,7 +36,10 @@ void ASItemChest::Tick(float DeltaTime)
 
 }
 
-
+/// <summary>
+/// 设置Actor相对旋转
+/// </summary>
+/// <param name="pawn"></param>
 void ASItemChest::Interface_Implementation(APawn* pawn)
 {
 	LidMeshComp->SetRelativeRotation(FRotator(TargetPitch, 0, 0));

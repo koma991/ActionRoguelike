@@ -8,15 +8,29 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FVector;
+struct FHitResult;
 #ifdef ACTIONROGUELIKE_ExplosiveBarrel_generated_h
 #error "ExplosiveBarrel.generated.h already included, missing '#pragma once' in ExplosiveBarrel.h"
 #endif
 #define ACTIONROGUELIKE_ExplosiveBarrel_generated_h
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_SPARSE_DATA
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_INCLASS_NO_PURE_DECLS \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_SPARSE_DATA
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHitComponent); \
+	DECLARE_FUNCTION(execExplosive);
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHitComponent); \
+	DECLARE_FUNCTION(execExplosive);
+
+
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAExplosiveBarrel(); \
 	friend struct Z_Construct_UClass_AExplosiveBarrel_Statics; \
@@ -25,7 +39,7 @@ public: \
 	DECLARE_SERIALIZER(AExplosiveBarrel)
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_INCLASS \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAExplosiveBarrel(); \
 	friend struct Z_Construct_UClass_AExplosiveBarrel_Statics; \
@@ -34,7 +48,7 @@ public: \
 	DECLARE_SERIALIZER(AExplosiveBarrel)
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_STANDARD_CONSTRUCTORS \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AExplosiveBarrel(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AExplosiveBarrel) \
@@ -47,7 +61,7 @@ private: \
 public:
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_ENHANCED_CONSTRUCTORS \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AExplosiveBarrel(AExplosiveBarrel&&); \
@@ -58,28 +72,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AExplosiveBarrel); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AExplosiveBarrel)
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_PRIVATE_PROPERTY_OFFSET
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_13_PROLOG
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_GENERATED_BODY_LEGACY \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_PRIVATE_PROPERTY_OFFSET
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_14_PROLOG
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_PRIVATE_PROPERTY_OFFSET \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_SPARSE_DATA \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_INCLASS \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_STANDARD_CONSTRUCTORS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_PRIVATE_PROPERTY_OFFSET \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_SPARSE_DATA \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_RPC_WRAPPERS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_INCLASS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_GENERATED_BODY \
+#define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_PRIVATE_PROPERTY_OFFSET \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_SPARSE_DATA \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_INCLASS_NO_PURE_DECLS \
-	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_ENHANCED_CONSTRUCTORS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_PRIVATE_PROPERTY_OFFSET \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_SPARSE_DATA \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_INCLASS_NO_PURE_DECLS \
+	ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

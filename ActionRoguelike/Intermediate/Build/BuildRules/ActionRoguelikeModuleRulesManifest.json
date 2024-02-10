@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\UE_Project\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike\\ActionRoguelike.Build.cs",
-		"E:\\UE_Project\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike.Target.cs",
-		"E:\\UE_Project\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelikeEditor.Target.cs"
+		"D:\\Work\\GitHub\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike\\ActionRoguelike.Build.cs",
+		"D:\\Work\\GitHub\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelike.Target.cs",
+		"D:\\Work\\GitHub\\ActionRoguelike\\ActionRoguelike\\Source\\ActionRoguelikeEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }

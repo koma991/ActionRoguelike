@@ -10,6 +10,8 @@
 //前置声明
 class USpringArmComponent;
 class UCameraComponent;
+class USInteractorComponent;
+class UAnimMontage;
 
 UCLASS()
 class ACTIONROGUELIKE_API ASCharacter : public ACharacter
@@ -33,8 +35,12 @@ protected:
 
 	void MoveForward(float value);
 	void MoveRight(float value);
+	void Jump();
 
 	void PrimaryAttack();
+	void PrimaryInteract();
+
+	void PlayAttackAnim();
 
 //属性
 protected:
@@ -42,10 +48,24 @@ protected:
 	USpringArmComponent* SpringArmComp;
 	UPROPERTY(VisibleAnywhere)
 	UCameraComponent* CameraComp;
+	UPROPERTY(VisibleAnywhere)
+	USInteractorComponent* InsteractComp;
+
+	UPROPERTY(EditAnywhere)
+	float DrawScale;
+	UPROPERTY(EditAnywhere)
+	float Thickness;
+
+	UPROPERTY(EditDefaultsOnly,Category = "Anim")
+	UAnimMontage* AttackAnim;
+	UPROPERTY(EditDefaultsOnly, Category = "Anim")
+	UAnimMontage* JumpAnim;
 
 	//移动
 	UPROPERTY(EditAnywhere);
 	float MoveSpeed;
+
+	FTimerHandle TimeHandle;
 	
 
 public:	

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ActionRoguelike.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A00F35F6-0597-4D8C-B77D-C8DE86D8EAC1}</UniqueIdentifier>
+      <UniqueIdentifier>{2D901CF8-A248-4C73-AD7A-6C79096775F7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionRoguelike.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8940F358-042A-42AD-BEC2-FB85AF047B12}</UniqueIdentifier>
+      <UniqueIdentifier>{8D8B46E1-6116-4DFA-9DF7-DB88F8E0A01D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ActionRoguelike">
-      <UniqueIdentifier>{D932B0A6-1E7A-43D3-96EF-68D775544D46}</UniqueIdentifier>
+      <UniqueIdentifier>{35D46184-B6C6-4620-BA01-F373F32406B9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ActionRoguelike\ActionRoguelike.Build.cs">
       <Filter>Source\ActionRoguelike</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\ActionRoguelike</Filter>
     </ClInclude>
     <Filter Include="Source\ActionRoguelike\Private">
-      <UniqueIdentifier>{5324A9D4-D8B3-41CB-8BB3-4D0FD0D4181C}</UniqueIdentifier>
+      <UniqueIdentifier>{E571260C-77CC-4652-9269-71CD66FB8875}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ActionRoguelike\Private\ExplosiveBarrel.cpp">
       <Filter>Source\ActionRoguelike\Private</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\ActionRoguelike\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ActionRoguelike\Public">
-      <UniqueIdentifier>{36FDCCB0-195C-4A04-8581-56922205307C}</UniqueIdentifier>
+      <UniqueIdentifier>{70FCCE8B-17A6-49CC-84BE-6A5AE374DE9D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ActionRoguelike\Public\ExplosiveBarrel.h">
       <Filter>Source\ActionRoguelike\Public</Filter>
