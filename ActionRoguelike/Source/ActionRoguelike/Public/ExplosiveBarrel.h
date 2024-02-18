@@ -41,6 +41,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Explosive();
 
+	UFUNCTION()
+	void Dynamic();
+
 	UFUNCTION(BlueprintCallable)
 	void OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 };

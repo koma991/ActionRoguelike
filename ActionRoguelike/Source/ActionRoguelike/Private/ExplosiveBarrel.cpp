@@ -26,8 +26,6 @@ AExplosiveBarrel::AExplosiveBarrel()
 	ForceComp->bAutoActivate = false;
 	ForceComp->bImpulseVelChange = true;
 	ForceComp->SetupAttachment(MeshComp);
-
-
 }
 
 //void AExplosiveBarrel::PostInitializeComponents()
@@ -40,11 +38,11 @@ AExplosiveBarrel::AExplosiveBarrel()
 void AExplosiveBarrel::BeginPlay()
 {
 	Super::BeginPlay();
-	MeshComp->OnComponentHit.AddDynamic(this, &AExplosiveBarrel::OnActorHit);
-	
+
+	this->Dynamic();
 }
 
-// Called every frame
+// Called every frame 
 void AExplosiveBarrel::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -54,12 +52,19 @@ void AExplosiveBarrel::Tick(float DeltaTime)
 void AExplosiveBarrel::Explosive()
 {
 	if (ForceComp) {
+
 		ForceComp->FireImpulse();
 	}
 }
 
+void AExplosiveBarrel::Dynamic()
+{
+	MeshComp->OnComponentHit.AddDynamic(this, &AExplosiveBarrel::OnActorHit);
+}
+
 void AExplosiveBarrel::OnActorHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
+	UE_LOG(LogTemp, Warning, TEXT("BOOM"));
 	Explosive();
 }
 

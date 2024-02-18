@@ -21,12 +21,14 @@ struct FHitResult;
 #define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnActorHit); \
+	DECLARE_FUNCTION(execDynamic); \
 	DECLARE_FUNCTION(execExplosive);
 
 
 #define ActionRoguelike_Source_ActionRoguelike_Public_ExplosiveBarrel_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnActorHit); \
+	DECLARE_FUNCTION(execDynamic); \
 	DECLARE_FUNCTION(execExplosive);
 
 

@@ -12,6 +12,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class USInteractorComponent;
 class UAnimMontage;
+class ISGameplayInterface;
 
 UCLASS()
 class ACTIONROGUELIKE_API ASCharacter : public ACharacter
@@ -49,6 +50,7 @@ protected:
 	UCameraComponent* CameraComp;
 	UPROPERTY(VisibleAnywhere)
 	USInteractorComponent* InsteractComp;
+
 
 	UPROPERTY(EditAnywhere)
 	float DrawScale;

@@ -36,6 +36,13 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		P_THIS->OnActorHit(Z_Param_HitComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AExplosiveBarrel::execDynamic)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->Dynamic();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AExplosiveBarrel::execExplosive)
 	{
 		P_FINISH;
@@ -47,10 +54,33 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 	{
 		UClass* Class = AExplosiveBarrel::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "Dynamic", &AExplosiveBarrel::execDynamic },
 			{ "Explosive", &AExplosiveBarrel::execExplosive },
 			{ "OnActorHit", &AExplosiveBarrel::execOnActorHit },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/ExplosiveBarrel.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AExplosiveBarrel, nullptr, "Dynamic", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AExplosiveBarrel_Dynamic()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AExplosiveBarrel_Dynamic_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AExplosiveBarrel_Explosive_Statics
 	{
@@ -174,6 +204,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ActionRoguelike,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AExplosiveBarrel_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AExplosiveBarrel_Dynamic, "Dynamic" }, // 2407112411
 		{ &Z_Construct_UFunction_AExplosiveBarrel_Explosive, "Explosive" }, // 1238745534
 		{ &Z_Construct_UFunction_AExplosiveBarrel_OnActorHit, "OnActorHit" }, // 387697305
 	};
@@ -230,7 +261,7 @@ void EmptyLinkFunctionForGeneratedCodeExplosiveBarrel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AExplosiveBarrel, 8752821);
+	IMPLEMENT_CLASS(AExplosiveBarrel, 1375143141);
 	template<> ACTIONROGUELIKE_API UClass* StaticClass<AExplosiveBarrel>()
 	{
 		return AExplosiveBarrel::StaticClass();

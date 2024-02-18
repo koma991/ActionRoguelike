@@ -4,3 +4,5 @@ D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Edito
 D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SGameplayInterface.h
 D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SGameplayInterface.generated.h
 D:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Source\ActionRoguelike\Public\SLevel.h
+D:\Work\GitHub\ActionRoguelike\ActionRoguelike\Intermediate\Build\Win64\UE4Editor\Inc\ActionRoguelike\SLevel.generated.h

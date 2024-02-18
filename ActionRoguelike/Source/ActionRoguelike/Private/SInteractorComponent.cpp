@@ -4,6 +4,7 @@
 #include "SInteractorComponent.h"
 #include "SGameplayInterface.h"
 #include "DrawDebugHelpers.h"
+#include "SLevel.h"
 
 // Sets default values for this component's properties
 USInteractorComponent::USInteractorComponent()
@@ -59,6 +60,11 @@ void USInteractorComponent::PrimaryInteract()
 		AActor* HitActor = Hit.GetActor();
 		if (HitActor)
 		{
+			if (HitActor->IsA(ASLevel::StaticClass())) {
+				ASLevel* level = Cast<ASLevel>(HitActor);
+				level->Explode();
+				break;
+			}
 			if (HitActor->Implements<USGameplayInterface>())
 			{
 				// 检查被击中的物体是否实现了 USGameplayInterface 接口
@@ -66,6 +72,7 @@ void USInteractorComponent::PrimaryInteract()
 				ISGameplayInterface::Execute_Interface(HitActor, MyPawn);
 				break;
 			}
+			
 		}
 		DrawDebugSphere(this->GetWorld(), Hit.ImpactPoint, Radius, 15, LineColor, false, 2.0f, 0, 1.0f);
 	}
