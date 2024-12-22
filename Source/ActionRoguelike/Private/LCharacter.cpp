@@ -10,14 +10,14 @@ ALCharacter::ALCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	springArmComp = CreateDefaultSubobject<USpringArmComponent>(TEXT("springArmComp"));
-	springArmComp->bUsePawnControlRotation = true;
+	springArmComp->bUsePawnControlRotation = true;	//玩家控制的旋转角度会影响摄像机的视角
 	springArmComp->SetupAttachment(RootComponent);
 
 	cameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("cameraComp"));
 	cameraComp->SetupAttachment(springArmComp);
 
-	this->GetCharacterMovement()->bOrientRotationToMovement = true;
-	this->bUseControllerRotationYaw = false; // 旋转控制
+	this->GetCharacterMovement()->bOrientRotationToMovement = true;	//角色的旋转方式为跟随其移动方向
+	this->bUseControllerRotationYaw = false; // 角色的 Yaw（即旋转角度）不再直接由控制器的旋转来控制
 }
 
 // Called when the game starts or when spawned
@@ -69,6 +69,7 @@ void ALCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("LookUp",this,&APawn::AddControllerPitchInput);
 
 	PlayerInputComponent->BindAction("PrimaryAttack",IE_Pressed, this, &ALCharacter::PrimaryAttack);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 
 }
 

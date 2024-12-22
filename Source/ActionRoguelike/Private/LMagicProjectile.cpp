@@ -14,19 +14,23 @@ ALMagicProjectile::ALMagicProjectile()
 	PrimaryActorTick.bCanEverTick = true;
 
 
-	sphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
+	sphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("sphereComp"));
 	sphereComp->SetupAttachment(RootComponent);
 	sphereComp->SetCollisionObjectType(ECC_WorldDynamic);
 	sphereComp->SetCollisionProfileName("Projectile");
 
-	effectComp = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("EffectComp"));
+	effectComp = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("effectComp"));
 	effectComp->SetupAttachment(sphereComp);
 	
-	moveComp = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("MoveComp"));
+	moveComp = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("moveComp"));
 	moveComp->InitialSpeed = 1000.0f;
 	moveComp->bRotationFollowsVelocity = true;
 	moveComp->bInitialVelocityInLocalSpace = true;
 	moveComp->ProjectileGravityScale = 0.0f;
+
+
+	//¶¯Ì¬°ó¶¨sphereCompÅö×²º¯Êý
+	sphereComp->OnComponentBeginOverlap.AddDynamic(this, &ALMagicProjectile::OnComponentBeginOverlap);
 }
 
 // Called when the game starts or when spawned
@@ -44,8 +48,9 @@ void ALMagicProjectile::Tick(float DeltaTime)
 
 }
 
-//void ALMagicProjectile::OnComponentHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, FVector NormalImpulse, const FHitResult& Hit)
-//{
-//	UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(), effectSys, Hit.ImpactPoint, FRotator::ZeroRotator);
-//}
+void ALMagicProjectile::OnComponentBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	FVector impactPoint = SweepResult.ImpactPoint;
+	UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(), effectSys, impactPoint, FRotator::ZeroRotator, true, EPSCPoolMethod::None, true);
+}
 
