@@ -11,6 +11,7 @@
 class FOnTimelineFloat;
 class UStaticMeshComponent;
 class UTimelineComponent;
+class UParticleSystemComponent;
 
 UCLASS()
 class ACTIONROGUELIKE_API ALItemChestActor : public AActor, public ILGameplayInterface
@@ -31,13 +32,19 @@ public:
 	UStaticMeshComponent* LidMesh;
 
 	UPROPERTY(VisibleAnywhere)
-	UTimelineComponent* LidTimeline;
+	UStaticMeshComponent* GoldMesh;
+
+	UPROPERTY(VisibleAnywhere)
+	UParticleSystemComponent* GoldParticle;
 	
+	UPROPERTY(VisibleAnywhere)
+	UTimelineComponent* LidTimeline;
 
 	UPROPERTY(EditAnywhere)
 	UCurveFloat* CurveFloat;
 
 	FOnTimelineFloat OnTimelineFloat;
+	FOnTimelineEvent OnTimelineEventFinish;
 
 protected:
 	// Called when the game starts or when spawned
@@ -50,4 +57,7 @@ public:
 public:
 	UFUNCTION()
 	void OpenLidCallback(float Value);
+	
+	UFUNCTION()
+	void FinishLidCallback();
 };
