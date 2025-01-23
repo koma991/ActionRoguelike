@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "LGameplayInterface.h"
 #include "GameFramework/Actor.h"
 #include "LExplodingBarrel.generated.h"
 
@@ -11,9 +12,12 @@ class UParticleSystem;
 class URadialForceComponent;
 
 UCLASS()
-class ACTIONROGUELIKE_API ALExplodingBarrel : public AActor
+class ACTIONROGUELIKE_API ALExplodingBarrel : public AActor,public ILGameplayInterface
 {
 	GENERATED_BODY()
+
+public:
+	void Interact_Implementation(APawn* InstigatorPawn);
 	
 public:	
 	// Sets default values for this actor's properties
@@ -36,10 +40,10 @@ protected:
 
 	UFUNCTION()
 	void OnHit(
-			UPrimitiveComponent* HitComponent,        // Åö×²·¢ÉúµÄ×é¼þ
-			AActor* OtherActor,                       // ·¢ÉúÅö×²µÄÁíÒ»¸ö Actor
-			UPrimitiveComponent* OtherComp,           // ÁíÒ»¸ö×é¼þ
-			FVector NormalImpulse,                    // ·¨Ïß·½ÏòÉÏµÄ³å»÷Á¦
+			UPrimitiveComponent* HitComponent,        // ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+			AActor* OtherActor,                       // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ Actor
+			UPrimitiveComponent* OtherComp,           // ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½
+			FVector NormalImpulse,                    // ï¿½ï¿½ï¿½ß·ï¿½ï¿½ï¿½ï¿½ÏµÄ³ï¿½ï¿½ï¿½ï¿½
 			const FHitResult& Hit
 		);
 

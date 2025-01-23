@@ -7,6 +7,8 @@
 #include "PhysicsEngine/RadialForceComponent.h"
 #include "Kismet/GameplayStatics.h"
 
+
+
 // Sets default values
 ALExplodingBarrel::ALExplodingBarrel()
 {
@@ -42,7 +44,7 @@ void ALExplodingBarrel::PostInitializeComponents()
 	meshComp->OnComponentHit.AddDynamic(this, &ALExplodingBarrel::OnHit);
 }
 
-void ALExplodingBarrel::OnHit(UPrimitiveComponent* HitComponent, /* Åö×²·¢ÉúµÄ×é¼þ */ AActor* OtherActor, /* ·¢ÉúÅö×²µÄÁíÒ»¸ö Actor */ UPrimitiveComponent* OtherComp, /* ÁíÒ»¸ö×é¼þ */ FVector NormalImpulse, /* ·¨Ïß·½ÏòÉÏµÄ³å»÷Á¦ */ const FHitResult& Hit)
+void ALExplodingBarrel::OnHit(UPrimitiveComponent* HitComponent, /* ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ */ AActor* OtherActor, /* ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ Actor */ UPrimitiveComponent* OtherComp, /* ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ */ FVector NormalImpulse, /* ï¿½ï¿½ï¿½ß·ï¿½ï¿½ï¿½ï¿½ÏµÄ³ï¿½ï¿½ï¿½ï¿½ */ const FHitResult& Hit)
 {
 	FTransform spawnTF = FTransform(FRotator::ZeroRotator, Hit.ImpactPoint);
 	UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(), explodingEffect, spawnTF);
@@ -56,3 +58,7 @@ void ALExplodingBarrel::Tick(float DeltaTime)
 
 }
 
+void ALExplodingBarrel::Interact_Implementation(APawn* InstigatorPawn)
+{
+	radiaForceComp->FireImpulse();
+}

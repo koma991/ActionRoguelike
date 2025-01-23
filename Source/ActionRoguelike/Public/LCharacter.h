@@ -9,32 +9,39 @@
 
 class USpringArmComponent;
 class UCameraComponent;
+class ULInteractionComponent;
+class UAnimMontage;
 
 UCLASS()
 class ACTIONROGUELIKE_API ALCharacter : public ACharacter
 {
 	GENERATED_BODY()
-
+	
 public:
 	// Sets default values for this character's properties
 	ALCharacter();
 
 	UPROPERTY(VisibleAnywhere)
-	USpringArmComponent* springArmComp;
+	USpringArmComponent* SpringArmComp;
 
 	UPROPERTY(VisibleAnywhere)
-	UCameraComponent* cameraComp;
+	UCameraComponent* CameraComp;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<AActor> projectileClass;
+	TSubclassOf<AActor> ProjectileClass;
+
+	UPROPERTY(VisibleAnywhere)
+	ULInteractionComponent* InteractionComp;
+
+	UPROPERTY(EditAnywhere,Category="Attack")
+	UAnimMontage* PrimaryInteractMontage;
+
+	FTimerHandle TimeHandle_PrimaryInteract;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void MoveForward(float value);
-	void MoveRight(float value);
-	void PrimaryAttack();
 
 public:	
 	// Called every frame
@@ -43,4 +50,10 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	void MoveForward(float value);
+	void MoveRight(float value);
+	void PrimaryAttack();
+	void PrimaryInteract();
+	
+	void PrimaryInteract_TimeExplose();
 };

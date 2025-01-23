@@ -3,18 +3,21 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
 #include "LGameplayInterface.h"
+#include "Components/TimelineComponent.h"
 #include "LItemChestActor.generated.h"
 
 
+class FOnTimelineFloat;
 class UStaticMeshComponent;
+class UTimelineComponent;
 
 UCLASS()
 class ACTIONROGUELIKE_API ALItemChestActor : public AActor, public ILGameplayInterface
 {
 	GENERATED_BODY()
-
+	
+public:
 	void Interact_Implementation(APawn* InstigatorPawn);
 	
 public:	
@@ -24,11 +27,17 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	UStaticMeshComponent* BaseMesh;
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere,BlueprintReadWrite)
 	UStaticMeshComponent* LidMesh;
 
+	UPROPERTY(VisibleAnywhere)
+	UTimelineComponent* LidTimeline;
+	
+
 	UPROPERTY(EditAnywhere)
-	float targetRot;
+	UCurveFloat* CurveFloat;
+
+	FOnTimelineFloat OnTimelineFloat;
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,4 +47,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+public:
+	UFUNCTION()
+	void OpenLidCallback(float Value);
 };
