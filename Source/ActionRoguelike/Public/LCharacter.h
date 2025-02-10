@@ -55,5 +55,5 @@ public:
 	void PrimaryAttack();
 	void PrimaryInteract();
 	
-	void PrimaryInteract_TimeExplose();
+	void PrimaryInteract_TimeExpose();
 };

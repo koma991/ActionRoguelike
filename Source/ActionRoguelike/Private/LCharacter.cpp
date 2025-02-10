@@ -59,7 +59,7 @@ void ALCharacter::MoveRight(float value){
 void ALCharacter::PrimaryAttack()
 {
 	PlayAnimMontage(PrimaryInteractMontage);
-	GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this, &ALCharacter::PrimaryInteract_TimeExplose,0.2f);
+	GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this, &ALCharacter::PrimaryInteract_TimeExpose,0.2f);
 
 }
 
@@ -71,11 +71,12 @@ void ALCharacter::PrimaryInteract()
 	}
 }
 
-void ALCharacter::PrimaryInteract_TimeExplose()
+void ALCharacter::PrimaryInteract_TimeExpose()
 {
 	FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
 	FTransform SpawnTM = FTransform(this->GetActorRotation(), SpawnLoc);
 	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Instigator = this;
 	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParameters);
 }

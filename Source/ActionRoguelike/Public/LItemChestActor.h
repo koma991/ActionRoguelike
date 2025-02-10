@@ -36,16 +36,21 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	UParticleSystemComponent* GoldParticle;
-	
+
+	//时间轴组件
 	UPROPERTY(VisibleAnywhere)
-	UTimelineComponent* LidTimeline;
+	UTimelineComponent* OpenTimeline;
 
-	UPROPERTY(EditAnywhere)
-	UCurveFloat* CurveFloat;
+	UPROPERTY(VisibleAnywhere)
+	UCurveFloat* OpenCurve;
 
-	FOnTimelineFloat OnTimelineFloat;
-	FOnTimelineEvent OnTimelineEventFinish;
+	UPROPERTY(VisibleAnywhere)
+	FOnTimelineFloat UpdateTimelineLidDelegate;
+	UPROPERTY(VisibleAnywhere)
+	FOnTimelineEvent FinishTimelineLidDelegate;
 
+	
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -56,8 +61,8 @@ public:
 
 public:
 	UFUNCTION()
-	void OpenLidCallback(float Value);
-	
+	void UpdateLidRotation(float value);
+
 	UFUNCTION()
-	void FinishLidCallback();
+	void FinishLidRotation();
 };

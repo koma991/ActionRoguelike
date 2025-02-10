@@ -40,10 +40,10 @@ protected:
 
 	UFUNCTION()
 	void OnHit(
-			UPrimitiveComponent* HitComponent,        // ��ײ���������
-			AActor* OtherActor,                       // ������ײ����һ�� Actor
-			UPrimitiveComponent* OtherComp,           // ��һ�����
-			FVector NormalImpulse,                    // ���߷����ϵĳ����
+			UPrimitiveComponent* HitComponent,        
+			AActor* OtherActor,                       
+			UPrimitiveComponent* OtherComp,           
+			FVector NormalImpulse,                    
 			const FHitResult& Hit
 		);
 

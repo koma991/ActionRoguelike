@@ -2,6 +2,9 @@
 
 
 #include "LItemChestActor.h"
+
+#include <string>
+
 #include "Components/StaticMeshComponent.h"
 #include "Components/TimelineComponent.h"
 #include "GameFramework/Actor.h"
@@ -40,18 +43,23 @@ ALItemChestActor::ALItemChestActor()
 		GoldParticle->bAutoActivate = false;
 	}
 
-	LidTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("LidTimeline"));
+	OpenTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("OpenTimeline"));
+
+	static ConstructorHelpers::FObjectFinder<UCurveFloat> VisualLidCanvas(TEXT("/Game/ActionRoguelike/BP/LidCurve.LidCurve"));
+	if (VisualLidCanvas.Succeeded())
+	{
+		OpenCurve = VisualLidCanvas.Object;
+	}
 }
 
 void ALItemChestActor::Interact_Implementation(APawn* InstigatorPawn)
 {
 	/*LidMesh->SetRelativeRotation(FRotator(TargetRot, 0.0f, 0.0f));*/
 
-	
-	if (LidTimeline->IsPlaying())
-		LidTimeline->Reverse();
-	else if (LidTimeline->IsReversing())
-		LidTimeline->Play();
+	if (OpenTimeline && !OpenTimeline->IsPlaying())
+	{
+		OpenTimeline->Play();
+	}
 }
 
 // Called when the game starts or when spawned
@@ -59,13 +67,16 @@ void ALItemChestActor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (CurveFloat)
+	
+	if (OpenCurve)
 	{
-		OnTimelineFloat.BindDynamic(this,&ALItemChestActor::OpenLidCallback);
-		OnTimelineEventFinish.BindUFunction(this,FName("FinishLidCallback"));
-		LidTimeline->AddInterpFloat(CurveFloat,OnTimelineFloat);
-		LidTimeline->SetTimelineFinishedFunc(OnTimelineEventFinish);
-		LidTimeline->SetLooping(false);
+		/*UpdateTimelineLidDelegate.BindUFunction(this,FName("UpdateTimelineLidFloat"));
+		FinishTimelineLidDelegate.BindUFunction(this,FName("FinishTimelineLidFloat"));*/
+		UpdateTimelineLidDelegate.BindDynamic(this,&ALItemChestActor::UpdateLidRotation);
+		FinishTimelineLidDelegate.BindDynamic(this,&ALItemChestActor::FinishLidRotation);
+
+		OpenTimeline->AddInterpFloat(OpenCurve,UpdateTimelineLidDelegate);
+		OpenTimeline->SetTimelineFinishedFunc(FinishTimelineLidDelegate);
 	}
 }
 
@@ -75,15 +86,18 @@ void ALItemChestActor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ALItemChestActor::OpenLidCallback(float Value)
+void ALItemChestActor::UpdateLidRotation(float value)
 {
-	FRotator NewRotation = FRotator(Value,0, 0);
-	LidMesh->SetRelativeRotation(NewRotation);
+	const float StartPitch = LidMesh->GetRelativeRotation().Pitch;
+	const float EndPitch = 90.0f;
+	const float NewPitch = FMath::Lerp(StartPitch,EndPitch,value);
+	GEngine->AddOnScreenDebugMessage(0,5.0f,FColor::Red,FString::Printf(TEXT("%f"),NewPitch));
+	LidMesh->SetRelativeRotation(FRotator(NewPitch,0.0f,0.0f));
 }
 
-void ALItemChestActor::FinishLidCallback()
+void ALItemChestActor::FinishLidRotation()
 {
-	GoldParticle->Activate();
+	
 }
 
 
