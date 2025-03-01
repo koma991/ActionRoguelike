@@ -2,7 +2,10 @@
 
 #pragma once
 
+#include <Actor.h>
+
 #include "CoreMinimal.h"
+#include "LBlackHole.h"
 #include "GameFramework/Character.h"
 #include "LCharacter.generated.h"
 
@@ -21,6 +24,19 @@ public:
 	// Sets default values for this character's properties
 	ALCharacter();
 
+	UPROPERTY(EditAnywhere)
+	float AttackTimer;
+	UPROPERTY(EditAnywhere)
+	float BlockHoleTimer;
+	UPROPERTY(EditAnywhere)
+	float BlockHoleTimeCount;
+	UPROPERTY(EditAnywhere)
+	float AttackTimeCount;
+	UPROPERTY(EditAnywhere)
+	bool bIsBlockHole;
+	UPROPERTY(EditAnywhere)
+	bool bIsAttack;
+
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
 
@@ -33,8 +49,16 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	ULInteractionComponent* InteractionComp;
 
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> BlackHoleClass;
+
 	UPROPERTY(EditAnywhere,Category="Attack")
 	UAnimMontage* PrimaryInteractMontage;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class UUserWidget> Crosshair_Widget;
+	
+	UUserWidget* CrossWidget;
 
 	FTimerHandle TimeHandle_PrimaryInteract;
 
@@ -54,6 +78,8 @@ public:
 	void MoveRight(float value);
 	void PrimaryAttack();
 	void PrimaryInteract();
+	void PrimaryBlackHole();
 	
 	void PrimaryInteract_TimeExpose();
+	void Timer(float DeltaTime);
 };

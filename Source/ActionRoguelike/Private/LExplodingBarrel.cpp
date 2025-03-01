@@ -3,7 +3,7 @@
 
 #include "LExplodingBarrel.h"
 #include "Components/StaticMeshComponent.h"
-#include "Particles//ParticleSystem.h"
+#include "Particles/ParticleSystem.h"
 #include "PhysicsEngine/RadialForceComponent.h"
 #include "Kismet/GameplayStatics.h"
 
@@ -25,8 +25,7 @@ ALExplodingBarrel::ALExplodingBarrel()
 	radiaForceComp->ImpulseStrength = 1000.0f;
 	radiaForceComp->bImpulseVelChange = true;
 	radiaForceComp->AddCollisionChannelToAffect(ECC_WorldDynamic);
-
-	explodingEffect = CreateDefaultSubobject<UParticleSystem>(TEXT("explodingEffect"));
+	
 
 }
 
