@@ -24,6 +24,8 @@ public:
 	// Sets default values for this character's properties
 	ALCharacter();
 
+	float DashTimer;
+	float DashLifeSpan;
 	UPROPERTY(EditAnywhere)
 	float AttackTimer;
 	UPROPERTY(EditAnywhere)
@@ -36,6 +38,8 @@ public:
 	bool bIsBlockHole;
 	UPROPERTY(EditAnywhere)
 	bool bIsAttack;
+
+	class ALProjectileDash* SpawnDash;
 
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
@@ -51,6 +55,11 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> BlackHoleClass;
+
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<AActor> DashClass;
+
+	bool bIsSpawnDash;
 
 	UPROPERTY(EditAnywhere,Category="Attack")
 	UAnimMontage* PrimaryInteractMontage;
@@ -79,6 +88,9 @@ public:
 	void PrimaryAttack();
 	void PrimaryInteract();
 	void PrimaryBlackHole();
+	void PrimaryDash();
+
+	void SpawnPlayer();
 	
 	void PrimaryInteract_TimeExpose();
 	void Timer(float DeltaTime);

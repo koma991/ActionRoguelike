@@ -3,6 +3,7 @@
 #include <Actor.h>
 
 #include "LInteractionComponent.h"
+#include "LProjectileDash.h"
 #include "Blueprint/UserWidget.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -36,6 +37,8 @@ ALCharacter::ALCharacter()
 	BlockHoleTimeCount = 5.0f;
 	bIsAttack = true;
 	bIsBlockHole = true;
+
+	DashTimer = 0.0f;
 }
 
 // Called when the game starts or when spawned
@@ -59,84 +62,14 @@ void ALCharacter::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Timer(DeltaTime);
-}
 
-void ALCharacter::MoveForward(float value){
-	FRotator controlRot = this->GetControlRotation();
-	controlRot.Pitch = 0.0f;
-	controlRot.Roll = 0.0f;
-    AddMovementInput(controlRot.Vector(), value);
-}
-void ALCharacter::MoveRight(float value){
-	FRotator controlRot = this->GetControlRotation();
-	controlRot.Pitch = 0.0f;
-	controlRot.Roll = 0.0f;
-	FVector rightVector = FRotationMatrix(controlRot).GetScaledAxis(EAxis::Y);
-	AddMovementInput(rightVector, value);
-}
-
-void ALCharacter::PrimaryAttack()
-{
-	if (bIsAttack)
+	if (bIsSpawnDash)
 	{
-		PlayAnimMontage(PrimaryInteractMontage);
-		GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this, &ALCharacter::PrimaryInteract_TimeExpose,0.2f);
-		bIsAttack = false;
+		DashTimer += DeltaTime;
 	}
-
-}
-
-void ALCharacter::PrimaryInteract()
-{
-	if (InteractionComp)
+	if (DashTimer >= DashLifeSpan)
 	{
-		InteractionComp->PrimaryInteraction();
-	}
-}
-
-void ALCharacter::PrimaryBlackHole()
-{
-	if (BlackHoleClass && bIsBlockHole)
-	{
-		FVector SpawnLocation = this->GetMesh()->GetSocketLocation("Muzzle_01");
-		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLocation);
-		FActorSpawnParameters SpawnParameters;
-		SpawnParameters.Instigator = this;
-		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-		GetWorld()->SpawnActor<AActor>(BlackHoleClass, SpawnTM, SpawnParameters);
-		bIsBlockHole = false;
-	}
-}
-
-void ALCharacter::PrimaryInteract_TimeExpose()
-{
-	FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
-	FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
-	FActorSpawnParameters SpawnParameters;
-	SpawnParameters.Instigator = this;
-	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParameters);
-}
-
-void ALCharacter::Timer(float DeltaTime)
-{
-	if (!bIsAttack)
-	{
-		AttackTimer += DeltaTime;
-	}
-	if (!bIsBlockHole)
-	{
-		BlockHoleTimer += DeltaTime;
-	}
-	if (AttackTimer > AttackTimeCount)
-	{
-		bIsAttack = true;
-		AttackTimer = 0.0f;
-	}
-	if (BlockHoleTimer > BlockHoleTimeCount)
-	{
-		bIsBlockHole = true;
-		BlockHoleTimer = 0.0f;
+		SpawnPlayer();
 	}
 }
 
@@ -156,5 +89,114 @@ void ALCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("PrimaryInteraction",IE_Pressed,this,&ALCharacter::PrimaryInteract);
 	PlayerInputComponent->BindAction("PrimaryBlackHole",IE_Pressed,this,&ALCharacter::PrimaryBlackHole);
+	PlayerInputComponent->BindAction("PrimaryDash",IE_Pressed,this,&ALCharacter::PrimaryDash);
 
 }
+
+void ALCharacter::MoveForward(float value){
+ 	FRotator controlRot = this->GetControlRotation();
+ 	controlRot.Pitch = 0.0f;
+ 	controlRot.Roll = 0.0f;
+     AddMovementInput(controlRot.Vector(), value);
+ }
+ void ALCharacter::MoveRight(float value){
+ 	FRotator controlRot = this->GetControlRotation();
+ 	controlRot.Pitch = 0.0f;
+ 	controlRot.Roll = 0.0f;
+ 	FVector rightVector = FRotationMatrix(controlRot).GetScaledAxis(EAxis::Y);
+ 	AddMovementInput(rightVector, value);
+ }
+ 
+ void ALCharacter::PrimaryAttack()
+ {
+ 	if (bIsAttack)
+ 	{
+ 		PlayAnimMontage(PrimaryInteractMontage);
+ 		GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this, &ALCharacter::PrimaryInteract_TimeExpose,0.2f);
+ 		bIsAttack = false;
+ 	}
+ 
+ }
+ 
+ void ALCharacter::PrimaryInteract()
+ {
+ 	if (InteractionComp)
+ 	{
+ 		InteractionComp->PrimaryInteraction();
+ 	}
+ }
+ 
+ void ALCharacter::PrimaryBlackHole()
+ {
+ 	if (BlackHoleClass && bIsBlockHole)
+ 	{
+ 		FVector SpawnLocation = this->GetMesh()->GetSocketLocation("Muzzle_01");
+ 		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLocation);
+ 		FActorSpawnParameters SpawnParameters;
+ 		SpawnParameters.Instigator = this;
+ 		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+ 		GetWorld()->SpawnActor<AActor>(BlackHoleClass, SpawnTM, SpawnParameters);
+ 		bIsBlockHole = false;
+ 	}
+ }
+ 
+ void ALCharacter::PrimaryDash()
+ {
+ 	if (DashClass)
+ 	{
+ 		FVector SpawnLoc =  this->GetMesh()->GetSocketLocation("Muzzle_01");
+ 		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
+ 		FActorSpawnParameters SpawnParameters;
+ 		SpawnParameters.Instigator = this;
+ 		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+ 	 	SpawnDash = Cast<ALProjectileDash>(GetWorld()->SpawnActor<AActor>(DashClass, SpawnTM, SpawnParameters));
+ 		bIsSpawnDash = SpawnDash ? true : false;
+ 		if (SpawnDash)
+ 		{
+ 			DashLifeSpan = SpawnDash->GetLifeSpan();
+ 		}
+ 	}
+ }
+
+void ALCharacter::SpawnPlayer()
+{
+	bIsSpawnDash = false;
+	DashTimer = 0.0f;
+	if (SpawnDash)
+	{
+		this->SetActorLocation(SpawnDash->GetActorLocation());
+		this->SetActorRotation(FRotator(0.0f, SpawnDash->GetActorRotation().Yaw, 0.0f));
+	}
+}
+
+void ALCharacter::PrimaryInteract_TimeExpose()
+ {
+ 	FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
+ 	FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
+ 	FActorSpawnParameters SpawnParameters;
+ 	SpawnParameters.Instigator = this;
+ 	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+ 	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParameters);
+ }
+ 
+ void ALCharacter::Timer(float DeltaTime)
+ {
+ 	if (!bIsAttack)
+ 	{
+ 		AttackTimer += DeltaTime;
+ 	}
+ 	if (!bIsBlockHole)
+ 	{
+ 		BlockHoleTimer += DeltaTime;
+ 	}
+ 	if (AttackTimer > AttackTimeCount)
+ 	{
+ 		bIsAttack = true;
+ 		AttackTimer = 0.0f;
+ 	}
+ 	if (BlockHoleTimer > BlockHoleTimeCount)
+ 	{
+ 		bIsBlockHole = true;
+ 		BlockHoleTimer = 0.0f;
+ 	}
+ }
