@@ -19,6 +19,8 @@ ALMagicProjectile::ALMagicProjectile()
 
 	sphereComp = CreateDefaultSubobject<USphereComponent>(TEXT("sphereComp"));
 	sphereComp->SetupAttachment(RootComponent);
+	sphereComp->SetNotifyRigidBodyCollision(true);
+	sphereComp->SetGenerateOverlapEvents(false);
 	sphereComp->SetCollisionObjectType(ECC_WorldDynamic);
 	sphereComp->SetCollisionProfileName("Projectile");
 

@@ -8,7 +8,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
-#include "PhysicsEngine/RadialForceComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystemComponent.h"
 
 
 // Sets default values
@@ -31,6 +32,17 @@ ALCharacter::ALCharacter()
 
 	PrimaryInteractMontage = CreateDefaultSubobject<UAnimMontage>(TEXT("PrimaryInteractMontage"));
 
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> DashParticleEnter_Template(TEXT("/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Teleport_Enter.P_Portal_Teleport_Enter"));
+	if (DashParticleEnter_Template.Succeeded())
+	{
+		DashParticleEnter = DashParticleEnter_Template.Object;
+	}
+	static ConstructorHelpers::FObjectFinder<UParticleSystem> DashParticleExit_Template(TEXT("/Game/ParagonGideon/FX/Particles/Gideon/Abilities/Portal/FX/P_Portal_Teleport_Exit.P_Portal_Teleport_Exit"));
+	if (DashParticleExit_Template.Succeeded())
+	{
+		DashParticleExit = DashParticleExit_Template.Object;
+	}
+	
 	AttackTimer = 0.0f;
 	AttackTimeCount = 0.8f;
 	BlockHoleTimer = 0.0f;
@@ -39,6 +51,7 @@ ALCharacter::ALCharacter()
 	bIsBlockHole = true;
 
 	DashTimer = 0.0f;
+	bIsDashing = true;
 }
 
 // Called when the game starts or when spawned
@@ -142,9 +155,10 @@ void ALCharacter::MoveForward(float value){
  
  void ALCharacter::PrimaryDash()
  {
- 	if (DashClass)
+ 	if (DashClass && bIsDashing)
  	{
- 		FVector SpawnLoc =  this->GetMesh()->GetSocketLocation("Muzzle_01");
+ 		bIsDashing = false;
+ 		FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
  		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
  		FActorSpawnParameters SpawnParameters;
  		SpawnParameters.Instigator = this;
@@ -164,8 +178,11 @@ void ALCharacter::SpawnPlayer()
 	DashTimer = 0.0f;
 	if (SpawnDash)
 	{
+		UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(),DashParticleEnter,SpawnDash->GetActorLocation());
 		this->SetActorLocation(SpawnDash->GetActorLocation());
 		this->SetActorRotation(FRotator(0.0f, SpawnDash->GetActorRotation().Yaw, 0.0f));
+		UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(),DashParticleExit,SpawnDash->GetActorLocation());
+		bIsDashing = true;
 	}
 }
 

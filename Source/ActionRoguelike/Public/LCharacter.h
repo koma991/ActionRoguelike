@@ -26,6 +26,7 @@ public:
 
 	float DashTimer;
 	float DashLifeSpan;
+	bool bIsDashing;
 	UPROPERTY(EditAnywhere)
 	float AttackTimer;
 	UPROPERTY(EditAnywhere)
@@ -40,6 +41,11 @@ public:
 	bool bIsAttack;
 
 	class ALProjectileDash* SpawnDash;
+
+	UPROPERTY(EditAnywhere)
+	class UParticleSystem* DashParticleEnter;
+	UPROPERTY(EditAnywhere)
+	class UParticleSystem* DashParticleExit;
 
 	UPROPERTY(VisibleAnywhere)
 	USpringArmComponent* SpringArmComp;
