@@ -38,7 +38,7 @@ ALProjectileDash::ALProjectileDash()
 	ProjectileMovement->ProjectileGravityScale = 0.0f;
 	ProjectileMovement->bRotationFollowsVelocity = true;
 
-	this->InitialLifeSpan = 0.8f;
+	this->InitialLifeSpan = 0.25f;
 }
 
 void ALProjectileDash::PostInitializeComponents()

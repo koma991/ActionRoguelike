@@ -99,5 +99,8 @@ public:
 	void SpawnPlayer();
 	
 	void PrimaryInteract_TimeExpose();
+	void PrimaryBlackHole_TimeExpose();
+	void PrimaryDash_TimeExpose();
+	void PrimaryDashPlayer_TimeExpose();
 	void Timer(float DeltaTime);
 };

@@ -52,6 +52,7 @@ ALCharacter::ALCharacter()
 
 	DashTimer = 0.0f;
 	bIsDashing = true;
+	bIsSpawnDash = false;
 }
 
 // Called when the game starts or when spawned
@@ -141,35 +142,22 @@ void ALCharacter::MoveForward(float value){
  
  void ALCharacter::PrimaryBlackHole()
  {
- 	if (BlackHoleClass && bIsBlockHole)
- 	{
- 		FVector SpawnLocation = this->GetMesh()->GetSocketLocation("Muzzle_01");
- 		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLocation);
- 		FActorSpawnParameters SpawnParameters;
- 		SpawnParameters.Instigator = this;
- 		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
- 		GetWorld()->SpawnActor<AActor>(BlackHoleClass, SpawnTM, SpawnParameters);
- 		bIsBlockHole = false;
- 	}
+	if (BlackHoleClass && bIsBlockHole)
+	{
+		PlayAnimMontage(PrimaryInteractMontage);
+		GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this,&ALCharacter::PrimaryBlackHole_TimeExpose,0.2f);
+		bIsBlockHole = false;
+	}
  }
  
  void ALCharacter::PrimaryDash()
  {
- 	if (DashClass && bIsDashing)
- 	{
- 		bIsDashing = false;
- 		FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
- 		FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
- 		FActorSpawnParameters SpawnParameters;
- 		SpawnParameters.Instigator = this;
- 		SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
- 	 	SpawnDash = Cast<ALProjectileDash>(GetWorld()->SpawnActor<AActor>(DashClass, SpawnTM, SpawnParameters));
- 		bIsSpawnDash = SpawnDash ? true : false;
- 		if (SpawnDash)
- 		{
- 			DashLifeSpan = SpawnDash->GetLifeSpan();
- 		}
- 	}
+	if (DashClass && bIsDashing)
+	{
+		bIsDashing = false;
+		PlayAnimMontage(PrimaryInteractMontage);
+		GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this,&ALCharacter::PrimaryDash_TimeExpose,0.2f);
+	}
  }
 
 void ALCharacter::SpawnPlayer()
@@ -179,10 +167,7 @@ void ALCharacter::SpawnPlayer()
 	if (SpawnDash)
 	{
 		UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(),DashParticleEnter,SpawnDash->GetActorLocation());
-		this->SetActorLocation(SpawnDash->GetActorLocation());
-		this->SetActorRotation(FRotator(0.0f, SpawnDash->GetActorRotation().Yaw, 0.0f));
-		UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(),DashParticleExit,SpawnDash->GetActorLocation());
-		bIsDashing = true;
+		GetWorldTimerManager().SetTimer(TimeHandle_PrimaryInteract,this,&ALCharacter::PrimaryDashPlayer_TimeExpose,0.2f);
 	}
 }
 
@@ -194,9 +179,46 @@ void ALCharacter::PrimaryInteract_TimeExpose()
  	SpawnParameters.Instigator = this;
  	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
  	this->GetWorld()->SpawnActor<AActor>(ProjectileClass, SpawnTM, SpawnParameters);
+	GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryInteract);
  }
- 
- void ALCharacter::Timer(float DeltaTime)
+
+void ALCharacter::PrimaryBlackHole_TimeExpose()
+{
+	FVector SpawnLocation = this->GetMesh()->GetSocketLocation("Muzzle_01");
+	FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLocation);
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Instigator = this;
+	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	GetWorld()->SpawnActor<AActor>(BlackHoleClass, SpawnTM, SpawnParameters);
+	GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryInteract);
+}
+
+void ALCharacter::PrimaryDash_TimeExpose()
+{
+	FVector SpawnLoc = this->GetMesh()->GetSocketLocation("Muzzle_01");
+	FTransform SpawnTM = FTransform(this->GetControlRotation(), SpawnLoc);
+	FActorSpawnParameters SpawnParameters;
+	SpawnParameters.Instigator = this;
+	SpawnParameters.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnDash = Cast<ALProjectileDash>(GetWorld()->SpawnActor<AActor>(DashClass, SpawnTM, SpawnParameters));
+	bIsSpawnDash = SpawnDash ? true : false;
+	if (SpawnDash)
+	{
+		DashLifeSpan = SpawnDash->GetLifeSpan();
+	}
+	GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryInteract);
+}
+
+void ALCharacter::PrimaryDashPlayer_TimeExpose()
+{
+	this->SetActorLocation(SpawnDash->GetActorLocation());
+	this->SetActorRotation(FRotator(0.0f, SpawnDash->GetActorRotation().Yaw, 0.0f));
+	UGameplayStatics::SpawnEmitterAtLocation(this->GetWorld(),DashParticleExit,SpawnDash->GetActorLocation());
+	bIsDashing = true;
+	GetWorldTimerManager().ClearTimer(TimeHandle_PrimaryInteract);
+}
+
+void ALCharacter::Timer(float DeltaTime)
  {
  	if (!bIsAttack)
  	{
